@@ -4,6 +4,7 @@
     max-width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    
   }
   .my-education {
     border: 1px pink solid;
