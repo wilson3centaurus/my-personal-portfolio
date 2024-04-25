@@ -101,11 +101,11 @@
   <!-- ====== Project 1 ===== -->
   <div class="card">
       <div class="left-side">
-          <img class="project-image project-image1" src="../public/images/projects/background (3).jpg" alt="" width="192" height="256">
+          <img class="project-image project-image1" src="../public/images/projects/project (4).png" alt="" width="192" height="256">
       </div>
 
       <div class="right-side">
-          <div class="api-header">Automated Toll Gate System</div>
+          <div class="api-header">React Chat App</div>
           <div class="project-info">
               
               <div class="project-info-heading">Made with: </div>
@@ -143,7 +143,7 @@
   <!-- ====== Project 2 ===== -->
   <div class="card">
       <div class="left-side">
-          <img class="project-image project-image1" src="../public/images/projects/background (3).jpg" alt="" width="192" height="256">
+          <img class="project-image project-image1" src="../public/images/projects/project (3).png" alt="">
       </div>
 
       <div class="right-side">
@@ -185,7 +185,7 @@
   <!-- ====== Project 3 ===== -->
   <div class="card">
       <div class="left-side">
-          <img class="project-image project-image1" src="../public/images/projects/background (3).jpg" alt="" width="192" height="256">
+          <img class="project-image project-image1" src="../public/images/projects/project (1).png" alt="" width="192" height="256">
       </div>
 
       <div class="right-side">
@@ -227,7 +227,7 @@
   <!-- ====== Project 4 ===== -->
   <div class="card">
       <div class="left-side">
-          <img class="project-image project-image1" src="../public/images/projects/background (3).jpg" alt="" width="192" height="256">
+          <img class="project-image project-image1" src="../public/images/projects/project (2).png" alt="" width="192" height="256">
       </div>
 
       <div class="right-side">
