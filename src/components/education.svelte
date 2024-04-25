@@ -10,6 +10,7 @@
     padding: 30px;
     margin: 10%;
     margin-top: auto;
+    margin-bottom: 50px;
     background-color: rgb(131, 193, 255);
     border-radius: 5px;
   }
