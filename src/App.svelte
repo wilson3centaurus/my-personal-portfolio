@@ -7,6 +7,9 @@
   import Education from './components/education.svelte';
   import Skills from './components/skills.svelte';
 
+  function run() {
+
+  }
 </script>
 <Router>
   <nav class="flex justify-between shadow p-4 nav-bar">

@@ -8,10 +8,9 @@
     display: flex;
     border-radius: 0.75rem;
     max-width: 90%;
-    margin: 1rem auto;
     border-radius: 8px;
     padding: 10px;
-    margin: 16px;
+    margin: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: rgb(131, 193, 255);
   }
@@ -148,7 +147,7 @@
       </div>
 
       <div class="right-side">
-          <div class="api-header">Automated Toll Gate System</div>
+          <div class="api-header">Substance Sentry</div>
           <div class="project-info">
               
               <div class="project-info-heading">Made with: </div>
@@ -190,7 +189,7 @@
       </div>
 
       <div class="right-side">
-          <div class="api-header">Automated Toll Gate System</div>
+          <div class="api-header">Classic Rock Paper Scissors</div>
           <div class="project-info">
               
               <div class="project-info-heading">Made with: </div>
@@ -232,7 +231,7 @@
       </div>
 
       <div class="right-side">
-          <div class="api-header">Automated Toll Gate System</div>
+          <div class="api-header">Smart Todo List </div>
           <div class="project-info">
               
               <div class="project-info-heading">Made with: </div>
