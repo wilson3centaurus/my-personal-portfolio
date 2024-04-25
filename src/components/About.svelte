@@ -24,7 +24,7 @@
     <div>
      <center><img src="../../public/images/wilson (2).jpg" alt="" class="profile-image"></center>
      <p>Tafadzwa Wilson Sedze is a talented web developer specializing in JavaScript, React, Svelte, MySQL, Laravel, Python, Tailwindcss, and Flutter. With a passion for creating beautiful UI and UX designs, Kundai combines his coding skills with a keen eye for aesthetics. His dedication to staying up-to-date with the latest technologies and his strong communication skills make him a valuable asset to any web development team.
- <br/>
- <span>@wilson centaurus</span></p>
+    <br/>
+    <span>@wilson centaurus</span></p>
     </div> 
  </div>
