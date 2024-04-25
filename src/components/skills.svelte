@@ -6,7 +6,6 @@
     padding-bottom: 2rem;
   }
   .my-education {
-    border: 1px pink solid;
     padding: 30px;
     margin: 10%;
     margin-top: auto;
