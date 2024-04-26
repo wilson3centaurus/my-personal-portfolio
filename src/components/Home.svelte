@@ -34,7 +34,7 @@
   }
 </style>
 
-<div class="background-container px-[20%] text-center py-8 container">
+<div class="background-container px-[20%] text-center container">
   <div class="">
     <div class="">
       <h1 class="mb-4 text-center text-4xl home-text">

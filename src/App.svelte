@@ -28,8 +28,8 @@
     <style>
       footer {
         background-color: #111827;
-        height: 150px;
-        margin-top: 40px
+        height: 140px;
+        margin-top: 35px
       }
       .line {
       }
@@ -47,15 +47,18 @@
       }
       .text {
         color: #2c3e50;
+        margin-top: -10px;
       }
       .icons {
-        margin-top: 10px;
+        margin-top: -16px;
         font-size: 20px;
       }
       .icon {
         background-color: #8392a5;
         color: #111827;
-        font-size: 40px;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
       }
       .icon:hover {
         color: whitesmoke;
