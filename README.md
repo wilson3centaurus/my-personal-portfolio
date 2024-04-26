@@ -18,4 +18,4 @@ You are good to go!
 
 ### Feel free to copy, fork or clone this repo and edit it on your own.
 
-## ⭐ Enjoyed My Portfolio and Projects? Please Consider Giving Them a Star! 💫
+## ⭐ Enjoyed My Portfolio and Projects? Please Consider Giving Them a Star!💫
