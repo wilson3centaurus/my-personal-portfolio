@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    height: 400px;
+    height: calc(100vh - 180px);
   }
   .home-text {
     color: white;
@@ -34,7 +34,7 @@
   }
 </style>
 
-<div class="background-container px-[20%] text-center container">
+<div class="background-container text-center container">
   <div class="">
     <div class="">
       <h1 class="mb-4 text-center text-4xl home-text">
