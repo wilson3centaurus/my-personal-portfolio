@@ -34,9 +34,9 @@
   <div class="my-education">
     <h1>Technical <span>Skills</span></h1>
 
-    <div>JavaScript</div>
-    <div>Linux</div>
-    <div>React</div>
+    <div class="icon-container">
+        <i class="devicon-javascript-plain colored icon"></i>
+    </div>
 
   </div>
 </div>
