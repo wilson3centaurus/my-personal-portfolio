@@ -22,6 +22,9 @@
     width: 192px;
     height: 396px;
     position: relative;
+    border: 1px #111827 solid;
+    border-radius: 5px;
+
   }
 
   .api-header {
@@ -32,11 +35,14 @@
     margin-bottom: 40px;
   }
   .project-image {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
-    border: 1px #cfc1c1 solid;
     border-radius: 6px;
+    
+  }
+  .two-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   /* Right side (project card) */
   .right-side {
@@ -142,8 +148,9 @@
 
   <!-- ====== Project 2 ===== -->
   <div class="card">
-      <div class="left-side">
-          <img class="project-image project-image1" src="../public/images/projects/project (3).png" alt="">
+      <div class="left-side two-images">
+          <img class="project-image" src="../public/images/projects/project (3).png" alt="" width="220">
+          <img class="project-image" src="../public/images/projects/project (3).png" alt="" width="220">
       </div>
 
       <div class="right-side">
