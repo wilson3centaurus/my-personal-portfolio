@@ -1,4 +1,4 @@
-## Welcome to My Web Portfolio!
+# Welcome to My Web Portfolio!
 
 Hello and welcome to my web portfolio repo! I'm Tafadzwa Wilson Sedze, a passionate computer science major with a keen interest in exploring the endless possibilities of technology. This portfolio showcases my journey as a software developer, highlighting my [projects](https://github.com/wilson3centaurus), skills, and educational background..
 
