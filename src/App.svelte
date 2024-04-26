@@ -15,12 +15,12 @@
       Wilson Centaurus
     </span></a></div>
     <div class="space-x-6">
-     <Link to="/">Home</Link> 
-     <Link to="/about">About Me</Link>
-     <Link to="/projects">Projects</Link> 
-     <Link to="/skills">Skills</Link> 
-     <Link to="/education">Education</Link>
-     <Link to="/contact">Contact</Link> 
+     <Link to="/" class="active:text-blue-500">Home</Link> 
+   <Link to="/about" class="active:text-blue-500">About Me</Link>
+   <Link to="/projects" class="active:text-blue-500">Projects</Link> 
+   <Link to="/skills" class="active:text-blue-500">Skills</Link> 
+   <Link to="/education" class="active:text-blue-500">Education</Link>
+   <Link to="/contact" class="active:text-blue-500">Contact</Link>
     </div>
     <div></div>
     </nav>
@@ -29,7 +29,6 @@
       footer {
         background-color: #111827;
         height: 130px;
-        
       }
       .line {
       }
