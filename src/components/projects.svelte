@@ -19,7 +19,7 @@
   .left-side {
     flex: 1;
     padding-right: 16px;
-    width: 192px;
+    width: 292px;
     height: 396px;
     position: relative;
     border: 1px #111827 solid;
@@ -35,14 +35,15 @@
     margin-bottom: 40px;
   }
   .project-image {
-    object-fit: cover;
-    border-radius: 6px;
-    
+    width: 600px;
+    height: 375px;
+    margin-left: 8px;
+    border-radius: 3px;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 10px;
   }
   .two-images {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
   }
   /* Right side (project card) */
   .right-side {
@@ -107,7 +108,7 @@
   <!-- ====== Project 1 ===== -->
   <div class="card">
       <div class="left-side">
-          <img class="project-image project-image1" src="../public/images/projects/project (4).png" alt="" width="192" height="256">
+          <img class="project-image project-image1" src="../public/images/projects/project (4).png" alt="">
       </div>
 
       <div class="right-side">
@@ -149,8 +150,8 @@
   <!-- ====== Project 2 ===== -->
   <div class="card">
       <div class="left-side two-images">
-          <img class="project-image" src="../public/images/projects/project (3).png" alt="" width="220">
-          <img class="project-image" src="../public/images/projects/project (3).png" alt="" width="220">
+          <img class="project-image" src="../public/images/projects/project (3).png" alt="">
+          <img class="project-image" src="../public/images/projects/project (5).png" alt="">
       </div>
 
       <div class="right-side">
