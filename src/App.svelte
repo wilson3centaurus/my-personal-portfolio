@@ -73,11 +73,11 @@
       <div class="line border-t-2 border-white-100 mx-[20%] mb-5"></div>
       <h3 class="text-2xl mb-5 text">Connect with me</h3>
       <div class="p-3  icons">
-        <a href="https://github.com/wilson3centaurus"><span class="icon bi bi-github"></span></a>
-        <a href="https://www.linkedin.com/in/kundai-chifwafwa-091b75262" class="bg-gray-100 text-gray-500 p-3 rounded-lg text-2xl hover:text-slate-800 icon" ><span class="bi bi-linkedin"></span></a>
-        <a href="" class="bg-gray-100 text-gray-500 p-3 rounded-lg text-2xl hover:text-slate-800 icon" ><span class="bi bi-twitter"></span></a>
-        <a href="" class="bg-gray-100 text-gray-500 p-3 rounded-lg text-2xl hover:text-slate-800 icon" ><span class="bi bi-facebook"></span></a>
-        <a href="" class="bg-gray-100 text-gray-500 p-3 rounded-lg text-2xl hover:text-slate-800 icon" ><span class="bi bi-whatsapp"></span></a>
+        <a href="https://github.com/wilson3centaurus"><span class="bi bi-github icon"></span></a>
+        <a href="https://www.linkedin.com/in/kundai-chifwafwa-091b75262"><span class="bi bi-linkedin icon"></span></a>
+        <a href=""><span class="bi bi-twitter icon"></span></a>
+        <a href=""><span class="bi bi-facebook icon"></span></a>
+        <a href=""><span class="bi bi-whatsapp icon"></span></a>
       </div>
     </footer>
 </Router>
