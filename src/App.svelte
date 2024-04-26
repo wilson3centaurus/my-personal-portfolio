@@ -28,7 +28,10 @@
     <style>
       footer {
         background-color: #111827;
-        height: 100px;
+        height: 150px;
+        margin-top: 40px
+      }
+      .line {
       }
       .nav-bar {
         background-color: #111827;
@@ -52,6 +55,7 @@
       .icon {
         background-color: #8392a5;
         color: #111827;
+        font-size: 40px;
       }
       .icon:hover {
         color: whitesmoke;
@@ -65,11 +69,11 @@
   <Route path="/skills"><Skills/></Route>
   <Route path="/education"><Education/></Route>
 
-    <footer class="text-center">
-      <div class="border-t-2 border-white-100 mx-[20%] mb-5"></div>
+    <footer class="text-center p-3">
+      <div class="line border-t-2 border-white-100 mx-[20%] mb-5"></div>
       <h3 class="text-2xl mb-5 text">Connect with me</h3>
       <div class="p-3  icons">
-        <a href="https://github.com/wilson3centaurus" class="bg-gray-100 text-gray-500 p-3 rounded-lg text-2xl hover:text-slate-800 icon"><span class=" bi bi-github"></span></a>
+        <a href="https://github.com/wilson3centaurus"><span class="icon bi bi-github"></span></a>
         <a href="https://www.linkedin.com/in/kundai-chifwafwa-091b75262" class="bg-gray-100 text-gray-500 p-3 rounded-lg text-2xl hover:text-slate-800 icon" ><span class="bi bi-linkedin"></span></a>
         <a href="" class="bg-gray-100 text-gray-500 p-3 rounded-lg text-2xl hover:text-slate-800 icon" ><span class="bi bi-twitter"></span></a>
         <a href="" class="bg-gray-100 text-gray-500 p-3 rounded-lg text-2xl hover:text-slate-800 icon" ><span class="bi bi-facebook"></span></a>
