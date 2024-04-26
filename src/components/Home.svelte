@@ -25,6 +25,9 @@
   .btn {
      background-color: #336699;
   }
+  .btn:hover {
+    opacity: 0.7;
+  }
   .bi {
     margin-right: 3px;
     color: #111827;

@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "bootstrap-icons": "^1.11.3",
+    "devicons": "^1.8.0",
     "svelte-routing": "^2.12.0"
   }
 }

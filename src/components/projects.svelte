@@ -12,8 +12,8 @@
     padding: 10px;
     margin: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: rgb(131, 193, 255);
-  }
+    background-color: #fff 
+   }
 
   /* Left side (API interface) */
   .left-side {
@@ -43,8 +43,8 @@
     display: flex;
   }
   .two-image {
-    width: 500px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
   }
   /* Right side (project card) */
   .right-side {
@@ -66,10 +66,16 @@
     margin-right: 20px;
   }
   .icon {
-    margin-right: 8px;
-    color: #333;
+    margin-right: 10px;
+    margin-top: -5px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out;
   }
-
+  .icon:hover {
+    transform: scale(1.15);
+  }
   .project-description p {
     font-size: 16px;
     color: #666;
@@ -103,6 +109,13 @@
   .view-button:hover {
     opacity: 0.8;
   }
+  .this-site {
+    justify-content: center;
+  }
+  .this-site a {
+    color: blue;
+    margin-left: 5px;
+  }
 </style>
 
 <div class="container py-8">
@@ -117,30 +130,30 @@
           <div class="project-info">
               
               <div class="project-info-heading">Made with: </div>
-              <div class="icon">
-                  <i class="devicon-javascript-plain colored"></i>
+              <div class="icon"> 
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
               </div>
               <div class="icon">
-                  <i class="devicon-nodejs-plain-wordmark colored"></i>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
               </div>
               <div class="icon">
-                  <i class="devicon-express-original-wordmark"></i>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
               </div>
               <div class="icon">
-                  <i class="devicon-mysql-plain-wordmark colored"></i>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-plain-wordmark.svg" />
               </div>
           </div>
           <div class="project-description">
               <p class="project-description">
-                  An automated toll gate system designed to streamline the process of toll collection on highways and roads. It utilizes JavaScript, Node.js, Express, MySQL, and Arduino for seamless functionality.
+                  A real-time chat app powered by Python, FastAPI, React JS, and Chat Engine. Users can authenticate, create group chats, send messages, and share attachments. The backend handles authentication and chat functionality, while Chat Engine provides websockets for seamless communication.
               </p>
           </div>
           <div class="project-buttons">
               <a href="google.com" class="view-button" target="_blank">
-                  <img class=" bi bi-youtube project-btn-icon" src="images/live.png" alt="" width="20" height="20">
+                  <img class=" bi bi-globe project-btn-icon" src="images/live.png" alt="" width="20" height="auto">
                   Live
               </a>
-              <a href="github.com" class="view-button" target="_blank">
+              <a href="https://github.com/wilson3centaurus/react-chat-app.git" class="view-button" target="_blank">
                   <img class="bi bi-github project-btn-icon" src="images/github.png" alt="" width="20px" height="auto">
                   Code
               </a>
@@ -160,30 +173,24 @@
           <div class="project-info">
               
               <div class="project-info-heading">Made with: </div>
-              <div class="icon">
-                  <i class="devicon-javascript-plain colored"></i>
+              <div class="icon"> 
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
               </div>
               <div class="icon">
-                  <i class="devicon-nodejs-plain-wordmark colored"></i>
-              </div>
-              <div class="icon">
-                  <i class="devicon-express-original-wordmark"></i>
-              </div>
-              <div class="icon">
-                  <i class="devicon-mysql-plain-wordmark colored"></i>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
               </div>
           </div>
           <div class="project-description">
               <p class="project-description">
-                  An automated toll gate system designed to streamline the process of toll collection on highways and roads. It utilizes JavaScript, Node.js, Express, MySQL, and Arduino for seamless functionality.
+                  Substance Sentry is a mobile application made with react-native aimed at providing resources and assistance to individuals struggling with drug and substance abuse. The app offers various features to educate, prevent, and support individuals affected by substance abuse, making it easier for them to seek help and take control of their lives.
               </p>
           </div>
           <div class="project-buttons">
               <a href="google.com" class="view-button" target="_blank">
-                  <img class=" bi bi-youtube project-btn-icon" src="images/live.png" alt="" width="20" height="20">
+                  <img class=" bi bi-globe project-btn-icon" src="images/live.png" alt="" width="20" height="auto">
                   Live
               </a>
-              <a href="github.com" class="view-button" target="_blank">
+              <a href="https://github.com/wilson3centaurus/SubstanceSentry.git" class="view-button" target="_blank">
                   <img class="bi bi-github project-btn-icon" src="images/github.png" alt="" width="20px" height="auto">
                   Code
               </a>
@@ -202,30 +209,27 @@
           <div class="project-info">
               
               <div class="project-info-heading">Made with: </div>
-              <div class="icon">
-                  <i class="devicon-javascript-plain colored"></i>
-              </div>
-              <div class="icon">
-                  <i class="devicon-nodejs-plain-wordmark colored"></i>
-              </div>
-              <div class="icon">
-                  <i class="devicon-express-original-wordmark"></i>
-              </div>
-              <div class="icon">
-                  <i class="devicon-mysql-plain-wordmark colored"></i>
-              </div>
+                <div class="icon"> 
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
+                </div>
+                <div class="icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+                </div>
+                <div class="icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+                </div>
           </div>
           <div class="project-description">
               <p class="project-description">
-                  An automated toll gate system designed to streamline the process of toll collection on highways and roads. It utilizes JavaScript, Node.js, Express, MySQL, and Arduino for seamless functionality.
+                  Welcome to the Rock Paper Scissors game! This game allows player to compete against the computer in the classic game of Rock Paper Scissors. It has also autoplay feature where the computer will be playing against itself.
               </p>
           </div>
           <div class="project-buttons">
               <a href="google.com" class="view-button" target="_blank">
-                  <img class=" bi bi-youtube project-btn-icon" src="images/live.png" alt="" width="20" height="20">
+                  <img class=" bi bi-globe project-btn-icon" src="images/live.png" alt="" width="20" height="auto">
                   Live
               </a>
-              <a href="github.com" class="view-button" target="_blank">
+              <a href="https://github.com/wilson3centaurus/rock-paper-scissor.git" class="view-button" target="_blank">
                   <img class="bi bi-github project-btn-icon" src="images/github.png" alt="" width="20px" height="auto">
                   Code
               </a>
@@ -244,34 +248,76 @@
           <div class="project-info">
               
               <div class="project-info-heading">Made with: </div>
-              <div class="icon">
-                  <i class="devicon-javascript-plain colored"></i>
-              </div>
-              <div class="icon">
-                  <i class="devicon-nodejs-plain-wordmark colored"></i>
-              </div>
-              <div class="icon">
-                  <i class="devicon-express-original-wordmark"></i>
-              </div>
-              <div class="icon">
-                  <i class="devicon-mysql-plain-wordmark colored"></i>
-              </div>
+                <div class="icon"> 
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
+                  </div>
+                  <div class="icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+                  </div>
+                  <div class="icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+                  </div>
           </div>
           <div class="project-description">
               <p class="project-description">
-                  An automated toll gate system designed to streamline the process of toll collection on highways and roads. It utilizes JavaScript, Node.js, Express, MySQL, and Arduino for seamless functionality.
+                  This ToDo List is a single page web app that lets users manage a their list of tasks, built with HTML5, CSS3 and JavaScript. Users can add and remove tasks from the list. The web app utilizes local storage to persistently store the todos, ensuring that users can access their tasks even after refreshing the page.
               </p>
           </div>
           <div class="project-buttons">
               <a href="google.com" class="view-button" target="_blank">
-                  <img class=" bi bi-youtube project-btn-icon" src="images/live.png" alt="" width="20" height="20">
+                  <img class=" bi bi-globe project-btn-icon" src="images/live.png" alt="" width="20" height="auto">
                   Live
               </a>
-              <a href="github.com" class="view-button" target="_blank">
+              <a href="https://github.com/wilson3centaurus/todo-list.git" class="view-button" target="_blank">
                   <img class="bi bi-github project-btn-icon" src="images/github.png" alt="" width="20px" height="auto">
                   Code
               </a>
           </div>
       </div>
   </div>
+
+  <!-- ====== Project 4 ===== -->
+  <div class="card">
+      <div class="left-side">
+          <img class="project-image project-image1" src="../public/images/projects/project (6).gif" alt="" width="192" height="256">
+      </div>
+
+      <div class="right-side">
+          <div class="api-header">Solar System Visualization </div>
+          <div class="project-info">
+              
+              <div class="project-info-heading">Made with: </div>
+                  <div class="icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+                  </div>
+                  <div class="icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+                  </div>
+          </div>
+          <div class="project-description">
+              <p class="project-description">
+                  Explore the beauty of our solar system with this simple visualization built using HTML and CSS. This visualization showcases the relationship between the Sun, Earth, and Moon, providing a glimpse into the dynamic interactions within our celestial neighborhood.
+              </p>
+          </div>
+          <div class="project-buttons">
+              <a href="google.com" class="view-button" target="_blank">
+                  <img class=" bi bi-globe project-btn-icon" src="images/live.png" alt="" width="20" height="auto">
+                  Live
+              </a>
+              <a href="https://github.com/wilson3centaurus/solar-system.git" class="view-button" target="_blank">
+                  <img class="bi bi-github project-btn-icon" src="images/github.png" alt="" width="20px" height="auto">
+                  Code
+              </a>
+          </div>
+      </div>
+  </div>
+
+  <p class="this-site flex">
+    You can also find this web portfolio on my
+    <a href="https://github.com/wilson3centaurus/my-personal-portfolio.git" target="_blank">github</a>, built with 
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" width="25px"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" width="25px"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="25px"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="25px"/>  
+  </p>
 </div>

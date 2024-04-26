@@ -5,12 +5,13 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-  .my-education {
+  .my-skills {
     padding: 30px;
     margin: 10%;
     margin-top: auto;
     background-color: rgb(131, 193, 255);
     border-radius: 5px;
+    margin-bottom: 10px;
   }
   span {
     color: #3182ce;
@@ -21,21 +22,64 @@
     font-weight: bold;
     margin-bottom: 50px;
   }
-  h2 {
-    font-size: 24px;
-    color: #3182ce;
+  .icon-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.icon {
+  animation: bounce 2s infinite alternate;
+  border-radius: 5px;
+  width: 80px;
+  background-color: transparent;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.icon:hover {
+  animation: none;
+  opacity: 0.8;
+}
+
+@keyframes bounce {
+  from {
+    transform: scale(1);
   }
-  .uni {
-    margin-bottom: 20px;
+  to {
+    transform: scale(1.1);
   }
+}
+  
 </style>
 
 <div class="container">
-  <div class="my-education">
+  <div class="my-skills">
     <h1>Technical <span>Skills</span></h1>
-
+    
     <div class="icon-container">
-        <i class="devicon-javascript-plain colored icon"></i>
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original-wordmark.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
+      <img class="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"/>
+      
+          
+
     </div>
 
   </div>

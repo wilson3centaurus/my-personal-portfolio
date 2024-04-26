@@ -4,11 +4,24 @@
     max-width: 100%;
     }
     .contact-form {
-      background-color: rgb(131, 193, 255);
+      background-color: #83c1ff;
       margin-top: -60px;
     }
     .contact-details {
       margin-top: -90px;
+    }
+    li {
+      align-items: center;
+
+    }
+    .contact-icon {
+      background-color: transparent;
+    }
+    .contact-icon:hover {
+      color: rgba(255, 255, 255, 0.562)fff;
+    }
+    span {
+      padding-top: 15px;
     }
 </style>
 <div class="text-center py-8 container">
@@ -105,48 +118,18 @@
           <ul class="font-general-regular">
           
             <li class="flex">
-              <i class="text-2xl text-gray-500 dark:text-gray-400 mr-4"
-                ><svg
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-                  ></path>
-                  <polyline points="22,6 12,13 2,6"></polyline></svg></i
-              ><span
-                class="text-lg mb-4 text-ternary-dark dark:text-ternary-light"
-                >tafadzwawilsonsedze@gmail.com</span
-              >
+              <a href="mailto:tafadzwawilsonsedze@gmail.com" target="_blank" class="contact-icon bg-gray-100 text-gray-500 p-3 rounded-lg text-2xl hover:text-slate-800 icon" ><span class="bi bi-envelope-fill"></span></a>
+              <span class="text-lg mb-4 text-ternary-dark dark:text-ternary-light">tafadzwawilsonsedze@gmail.com</span>
             </li>
             <li class="flex">
-              <i class="text-2xl text-gray-500 dark:text-gray-400 mr-4">
-                <svg
-                  stroke="currentColor"
-                  fill="none"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
-                  ></path></svg
-              ></i>
-              <span class="text-lg mb-4 text-ternary-dark dark:text-ternary-light"
-                >+263772668496  | +263787209882 </span
-              >
+              <a href="tel:+263772668496" target="_blank" class="contact-icon bg-gray-100 text-gray-500 p-3 rounded-lg text-2xl hover:text-slate-800 icon" ><span class="bi bi-telephone-fill"></span></a>
+              <span class="text-lg mb-4 text-ternary-dark dark:text-ternary-light">+263772668496 | +263787209882</span>
             </li>
+            <li class="flex">
+              <a href="https://github.com/wilson3centaurus" target="_blank" class="contact-icon bg-gray-100 text-gray-500 p-3 rounded-lg text-2xl hover:text-slate-800 icon" ><span class="bi bi-github"></span></a>
+              <span class="text-lg mb-4 text-ternary-dark dark:text-ternary-light">https://github.com/wilson3centaurus</span>
+            </li>
+
           </ul>
         </div>
       </div>
