@@ -10,7 +10,10 @@
 </script>
 <Router>
   <nav class="flex justify-between shadow p-4 nav-bar">
-    <div><a href="/"><span class=" font-bold text-lg text-slate-800 logo" style="">Wilson Centaurus</span></a></div>
+    <div><a href="/"><span class="flex font-bold text-lg text-slate-800 logo" style="">
+      <img src="../public/images/astronaut (1).png" alt="" width=35>
+      Wilson Centaurus
+    </span></a></div>
     <div class="space-x-6">
      <Link to="/">Home</Link> 
      <Link to="/about">About Me</Link>
@@ -33,6 +36,11 @@
       }
       .logo {
         color: white;
+        font-size: 21px;
+        margin-bottom: -8px
+      }
+      .logo img {
+        margin-right: 5px;
       }
       .text {
         color: #2c3e50;
