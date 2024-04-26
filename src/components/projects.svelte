@@ -19,12 +19,9 @@
   .left-side {
     flex: 1;
     padding-right: 16px;
-    width: 292px;
-    height: 396px;
+    max-width: fit-content;
     position: relative;
-    border: 1px #111827 solid;
     border-radius: 5px;
-
   }
 
   .api-header {
@@ -36,7 +33,7 @@
   }
   .project-image {
     width: 600px;
-    height: 375px;
+    height: 320px;
     margin-left: 8px;
     border-radius: 3px;
     transition: transform 0.3s ease-in-out;
@@ -44,6 +41,10 @@
   }
   .two-images {
     display: flex;
+  }
+  .two-image {
+    width: 500px;
+    height: 400px;
   }
   /* Right side (project card) */
   .right-side {
@@ -150,8 +151,8 @@
   <!-- ====== Project 2 ===== -->
   <div class="card">
       <div class="left-side two-images">
-          <img class="project-image" src="../public/images/projects/project (3).png" alt="">
-          <img class="project-image" src="../public/images/projects/project (5).png" alt="">
+          <img class="project-image two-image" src="../public/images/projects/project (3).png" alt="">
+          <img class="project-image two-image" src="../public/images/projects/project (5).png" alt="">
       </div>
 
       <div class="right-side">
