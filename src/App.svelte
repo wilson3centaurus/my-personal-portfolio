@@ -6,61 +6,9 @@
   import Projects from "./components/projects.svelte";
   import Education from "./components/education.svelte";
   import Skills from "./components/skills.svelte";
-  
-  function handleClick() {
-
-    const pathName = window.location.pathname;
-   
-    if (pathName === "/home") {
-      console.log(pathName);
-      document.querySelectorAll(".nav-bar a").forEach((link) => {
-        link.classList.remove("activeLink");
-        document.querySelector(".home").classList.add("activeLink");
-      });
-    }
-
-    if (pathName === "/about") {
-      console.log(pathName);
-      document.querySelectorAll(".nav-bar a").forEach((link) => {
-        link.classList.remove("activeLink");
-        document.querySelector(".about").classList.add("activeLink");
-      });
-    }
-
-    if (pathName === "/projects") {
-      console.log(pathName);
-      document.querySelectorAll(".nav-bar a").forEach((link) => {
-        link.classList.remove("activeLink");
-        document.querySelector(".projects").classList.add("activeLink");
-      });
-      
-    }
-    if (pathName === "skills") {
-      console.log(pathName);
-      document.querySelectorAll(".nav-bar a").forEach((link) => {
-        link.classList.remove("activeLink");
-        document.querySelector(".skills").classList.add("activeLink");
-      });
-    }
-    if (pathName === "education") {
-      console.log(pathName);
-      document.querySelectorAll(".nav-bar a").forEach((link) => {
-        link.classList.remove("activeLink");
-        document.querySelector(".education").classList.add("activeLink");
-      });
-    }
-
-    if (pathName === "contact") {
-      console.log(pathName);
-      document.querySelectorAll(".nav-bar a").forEach((link) => {
-        link.classList.remove("activeLink");
-        document.querySelector(".contact").classList.add("activeLink");
-      });
-    }
-  }
+  //import { page } from '$app/stores';
 
 </script>
-
 <Router>
   <nav class="flex justify-between shadow p-4 nav-bar">
     <div>
@@ -72,13 +20,13 @@
       >
     </div>
     <div class="space-x-6">
-
-      <Link class="home" to="/home" on:click={handleClick}>Home</Link>
-      <Link class="about" to="/about" on:click={handleClick}>About Me</Link>
-      <Link class="projects" to="/projects" on:click={handleClick}>Projects</Link>
-      <Link class="skills" to="/skills" on:click={handleClick}>Skills</Link>
-      <Link class="education" to="/education" on:click={handleClick}>Education</Link>
-      <Link class="contact" to="/contact" on:click={handleClick}>Contact</Link>
+      
+      <Link class="home" to="/">Home</Link>
+      <Link class="about" to="/about">About Me</Link>
+      <Link class="projects" to="/projects">Projects</Link>
+      <Link class="skills" to="/skills">Skills</Link>
+      <Link class="education" to="/education" >Education</Link>
+      <Link class="contact" to="/contact">Contact</Link>
     </div>
 
     <div></div>
