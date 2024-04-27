@@ -134,7 +134,6 @@
               name="name"
               placeholder="Your Name"
               aria-label="Name"
-              required=""
             />
           </div>
           <div class="font-general-regular mb-4">
@@ -149,7 +148,6 @@
               name="email"
               placeholder="Your email"
               aria-label="Email"
-              required=""
             />
           </div>
           <div class="font-general-regular mb-4">
@@ -163,7 +161,6 @@
               name="subject"
               placeholder="Subject"
               aria-label="Subject"
-              required=""
             />
           </div>
           <div class="mt-6">
@@ -238,7 +235,7 @@
 </div>
 
 
-<!-- HTML for the success message banner -->
+<!-- HTML for the success message banner 
 <div id="successBanner" class="success-banner hidden">
   <p class="success-message">Success: Your message has been sent!</p>
   <button class="close-button" on:click={closeSuccessBanner}>Close</button>
@@ -248,7 +245,7 @@
   <p class="error-message">Error: Please fill in all fields correctly</p>
   <button class="close-button" on:click={closeErrorBanner}>Close</button>
 </div>
-
+-->
 <style>
   .container {
     background-color: lightblue;

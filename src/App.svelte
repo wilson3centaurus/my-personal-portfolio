@@ -1,57 +1,107 @@
-<script>
-  import {Router, Route, NavLink, Link} from 'svelte-routing'
-  import Contact from './components/Contact.svelte';
-  import Home from './components/Home.svelte';
-  import About from './components/About.svelte';
-  import Projects from './components/projects.svelte';
-  import Education from './components/education.svelte';
-  import Skills from './components/skills.svelte';
+<script lang="ts">
+  import { Router, Route, Link } from "svelte-routing";
+  import Contact from "./components/Contact.svelte";
+  import Home from "./components/Home.svelte";
+  import About from "./components/About.svelte";
+  import Projects from "./components/projects.svelte";
+  import Education from "./components/education.svelte";
+  import Skills from "./components/skills.svelte";
 
+  function handleClick() {
+    const pathName = window.location.pathname.split("/").pop();
+
+    if (pathName === "home") {
+      document.querySelectorAll(".nav-bar a").forEach((link) => {
+        link.classList.remove("activeLink");
+      });
+      document.querySelector(".home").classList.add("activeLink");
+    }
+
+    if (pathName === "about") {
+      document.querySelectorAll(".nav-bar a").forEach((link) => {
+        link.classList.remove("activeLink");
+      });
+      document.querySelector(".about").classList.add("activeLink");
+    }
+
+    if (pathName === "projects") {
+      document.querySelectorAll(".nav-bar a").forEach((link) => {
+        link.classList.remove("activeLink");
+      });
+      document.querySelector(".projects").classList.add("activeLink");
+    }
+    if (pathName === "skills") {
+      document.querySelectorAll(".nav-bar a").forEach((link) => {
+        link.classList.remove("activeLink");
+      });
+
+      document.querySelector(".skills").classList.add("activeLink");
+    }
+    if (pathName === "education") {
+      document.querySelectorAll(".nav-bar a").forEach((link) => {
+        link.classList.remove("activeLink");
+      });
+      document.querySelector(".education").classList.add("activeLink");
+    }
+
+    if (pathName === "contact") {
+      document.querySelectorAll(".nav-bar a").forEach((link) => {
+        link.classList.remove("activeLink");
+      });
+      document.querySelector(".contact").classList.add("activeLink");
+    }
+  }
 </script>
+
 <Router>
   <nav class="flex justify-between shadow p-4 nav-bar">
-    <div><a href="/"><span class="flex font-bold text-lg text-slate-800 logo" style="">
-      <img src="../public/images/astronaut (1).png" alt="" width=35>
-      Wilson Centaurus
-    </span></a></div>
-    <div class="space-x-6">
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/about">About Me</NavLink>
-      <NavLink to="/projects">Projects</NavLink>
-      <NavLink to="/skills">Skills</NavLink>
-      <NavLink to="/education">Education</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
-        <!--
-     <Link to="/">Home</Link> 
-     <Link to="/about">About Me</Link>
-     <Link to="/projects">Projects</Link> 
-     <Link to="/skills">Skills</Link> 
-     <Link to="/education">Education</Link>
-     <Link to="/contact">Contact</Link> 
-     -->
-     
+    <div>
+      <a href="/"
+        ><span class="flex font-bold text-lg text-slate-800 logo" style="">
+          <img src="../public/images/astronaut (1).png" alt="" width="35" />
+          Wilson Centaurus
+        </span></a
+      >
     </div>
+    <div class="space-x-6">
+      <Link class="home" to="/home" on:click={handleClick}>Home</Link>
+      <Link class="about" to="/about" on:click={handleClick}>About Me</Link>
+      <Link class="projects" to="/projects" on:click={handleClick}>Projects</Link>
+      <Link class="skills" to="/skills" on:click={handleClick}>Skills</Link>
+      <Link class="education" to="/education" on:click={handleClick}>Education</Link>
+      <Link class="contact" to="/contact" on:click={handleClick}>Contact</Link>
+    </div>
+
     <div></div>
-    </nav>
+  </nav>
 
-
-  <Route path="/"><Home/></Route>
-  <Route path="/about"><About/></Route>
-  <Route path="/contact"><Contact/></Route>
-  <Route path="/projects"><Projects/></Route>
-  <Route path="/skills"><Skills/></Route>
-  <Route path="/education"><Education/></Route>
-
+  <Route path="/"><Home /></Route>
+  <Route path="/about"><About /></Route>
+  <Route path="/contact"><Contact /></Route>
+  <Route path="/projects"><Projects /></Route>
+  <Route path="/skills"><Skills /></Route>
+  <Route path="/education"><Education /></Route>
 
   <footer class="text-center p-3">
     <div class="line border-t-2 border-white-100 mx-[20%] mb-5"></div>
     <h3 class="text-2xl mb-5 text">Connect with me</h3>
-    <div class="p-3  icons">
-      <a href="https://github.com/wilson3centaurus" target="_blank"><span class="bi bi-github icon"></span></a>
-      <a href="https://www.linkedin.com/in/tafadzwa-wilson-sedze-2088b6177/" target="_blank"><span class="bi bi-linkedin icon"></span></a>
-      <a href="https://twitter.com/WilsonCentaurus" target="_blank"><span class="bi bi-twitter icon"></span></a>
-      <a href="https://www.facebook.com/wilson.sedze" target="_blank"><span class="bi bi-facebook icon"></span></a>
-      <a href="https://wa.me/+263787209882" target="_blank"><span class="bi bi-whatsapp icon"></span></a>
+    <div class="p-3 icons">
+      <a href="https://github.com/wilson3centaurus" target="_blank"
+        ><span class="bi bi-github icon"></span></a
+      >
+      <a
+        href="https://www.linkedin.com/in/tafadzwa-wilson-sedze-2088b6177/"
+        target="_blank"><span class="bi bi-linkedin icon"></span></a
+      >
+      <a href="https://twitter.com/WilsonCentaurus" target="_blank"
+        ><span class="bi bi-twitter icon"></span></a
+      >
+      <a href="https://www.facebook.com/wilson.sedze" target="_blank"
+        ><span class="bi bi-facebook icon"></span></a
+      >
+      <a href="https://wa.me/+263787209882" target="_blank"
+        ><span class="bi bi-whatsapp icon"></span></a
+      >
     </div>
   </footer>
 
@@ -60,9 +110,9 @@
       background-color: #111827;
       height: 130px;
     }
-    .selected {
-      font-weight: bold;
-      color: red;
+    .activeLink {
+      background-color: tomato;
+      color: white;
     }
     .nav-bar {
       background-color: #111827;
@@ -71,7 +121,7 @@
     .logo {
       color: white;
       font-size: 21px;
-      margin-bottom: -8px
+      margin-bottom: -8px;
     }
     .logo img {
       margin-right: 5px;
