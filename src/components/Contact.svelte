@@ -1,29 +1,9 @@
-<style>
-  .container {
-    background-color: lightblue;
-    max-width: 100%;
-    }
-    .contact-form {
-      background-color: #83c1ff;
-      margin-top: -60px;
-    }
-    .contact-details {
-      margin-top: -90px;
-    }
-    li {
-      align-items: center;
+<script>
+  const handleClick = () => {
+    alert('Lani');
+  };
+</script>
 
-    }
-    .contact-icon {
-      background-color: transparent;
-    }
-    .contact-icon:hover {
-      color: rgba(255, 255, 255, 0.562)fff;
-    }
-    span {
-      padding-top: 15px;
-    }
-</style>
 <div class="text-center py-8 container">
     <div
       class=" mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 lg:mt-10"
@@ -103,7 +83,7 @@
             <div
               class="font-general-medium w-40 px-4 py-2.5 text-white text-center font-medium tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg mt-6 duration-500"
             >
-              <button>Send Message</button>
+              <button type="button" on:click={handleClick}>Send Message</button>
             </div>
           </form>
         </div>
@@ -135,3 +115,30 @@
       </div>
     </div>
   </div>
+
+  <style>
+  .container {
+    background-color: lightblue;
+    max-width: 100%;
+    }
+    .contact-form {
+      background-color: #83c1ff;
+      margin-top: -60px;
+    }
+    .contact-details {
+      margin-top: -90px;
+    }
+    li {
+      align-items: center;
+
+    }
+    .contact-icon {
+      background-color: transparent;
+    }
+    .contact-icon:hover {
+      color: rgba(255, 255, 255, 0.562)fff;
+    }
+    span {
+      padding-top: 15px;
+    }
+</style>
