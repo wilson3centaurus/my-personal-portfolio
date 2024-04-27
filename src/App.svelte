@@ -1,5 +1,5 @@
 <script>
-  import {Router, Route, Link} from 'svelte-routing'
+  import {Router, Route, NavLink, Link} from 'svelte-routing'
   import Contact from './components/Contact.svelte';
   import Home from './components/Home.svelte';
   import About from './components/About.svelte';
@@ -15,12 +15,21 @@
       Wilson Centaurus
     </span></a></div>
     <div class="space-x-6">
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/about">About Me</NavLink>
+      <NavLink to="/projects">Projects</NavLink>
+      <NavLink to="/skills">Skills</NavLink>
+      <NavLink to="/education">Education</NavLink>
+      <NavLink to="/contact">Contact</NavLink>
+        <!--
      <Link to="/">Home</Link> 
      <Link to="/about">About Me</Link>
      <Link to="/projects">Projects</Link> 
      <Link to="/skills">Skills</Link> 
      <Link to="/education">Education</Link>
      <Link to="/contact">Contact</Link> 
+     -->
+     
     </div>
     <div></div>
     </nav>
@@ -51,7 +60,8 @@
       background-color: #111827;
       height: 130px;
     }
-    .test {
+    .selected {
+      font-weight: bold;
       color: red;
     }
     .nav-bar {

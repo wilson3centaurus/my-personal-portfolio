@@ -13,5 +13,8 @@
     "nock": "^13.5.4",
     "nodemailer": "^6.9.13",
     "smtp": "^0.1.4"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "^2.5.7"
   }
 }
