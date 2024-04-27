@@ -1,56 +1,64 @@
-<script lang="ts">
-  import { Router, Route, Link } from "svelte-routing";
+<script>
+  import { Router, Route, Link, useLocation} from "svelte-routing";
   import Contact from "./components/Contact.svelte";
   import Home from "./components/Home.svelte";
   import About from "./components/About.svelte";
   import Projects from "./components/projects.svelte";
   import Education from "./components/education.svelte";
   import Skills from "./components/skills.svelte";
-
+  
   function handleClick() {
-    const pathName = window.location.pathname.split("/").pop();
 
-    if (pathName === "home") {
+    const pathName = window.location.pathname;
+   
+    if (pathName === "/home") {
+      console.log(pathName);
       document.querySelectorAll(".nav-bar a").forEach((link) => {
         link.classList.remove("activeLink");
+        document.querySelector(".home").classList.add("activeLink");
       });
-      document.querySelector(".home").classList.add("activeLink");
     }
 
-    if (pathName === "about") {
+    if (pathName === "/about") {
+      console.log(pathName);
       document.querySelectorAll(".nav-bar a").forEach((link) => {
         link.classList.remove("activeLink");
+        document.querySelector(".about").classList.add("activeLink");
       });
-      document.querySelector(".about").classList.add("activeLink");
     }
 
-    if (pathName === "projects") {
+    if (pathName === "/projects") {
+      console.log(pathName);
       document.querySelectorAll(".nav-bar a").forEach((link) => {
         link.classList.remove("activeLink");
+        document.querySelector(".projects").classList.add("activeLink");
       });
-      document.querySelector(".projects").classList.add("activeLink");
+      
     }
     if (pathName === "skills") {
+      console.log(pathName);
       document.querySelectorAll(".nav-bar a").forEach((link) => {
         link.classList.remove("activeLink");
+        document.querySelector(".skills").classList.add("activeLink");
       });
-
-      document.querySelector(".skills").classList.add("activeLink");
     }
     if (pathName === "education") {
+      console.log(pathName);
       document.querySelectorAll(".nav-bar a").forEach((link) => {
         link.classList.remove("activeLink");
+        document.querySelector(".education").classList.add("activeLink");
       });
-      document.querySelector(".education").classList.add("activeLink");
     }
 
     if (pathName === "contact") {
+      console.log(pathName);
       document.querySelectorAll(".nav-bar a").forEach((link) => {
         link.classList.remove("activeLink");
+        document.querySelector(".contact").classList.add("activeLink");
       });
-      document.querySelector(".contact").classList.add("activeLink");
     }
   }
+
 </script>
 
 <Router>
@@ -64,6 +72,7 @@
       >
     </div>
     <div class="space-x-6">
+
       <Link class="home" to="/home" on:click={handleClick}>Home</Link>
       <Link class="about" to="/about" on:click={handleClick}>About Me</Link>
       <Link class="projects" to="/projects" on:click={handleClick}>Projects</Link>
@@ -74,7 +83,7 @@
 
     <div></div>
   </nav>
-
+  
   <Route path="/"><Home /></Route>
   <Route path="/about"><About /></Route>
   <Route path="/contact"><Contact /></Route>
