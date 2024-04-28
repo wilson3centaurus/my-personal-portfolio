@@ -10,7 +10,7 @@
     <p>ALX Africa</p>
     <p>Status - Inprogress</p>
     <p class="last">2023 - Present (9 months )</p>
-    <a href="" target="_blank" class="alx-current">View my Current Transcript</a>
+    <a href="https://drive.google.com/file/d/142Ci7z3J2q-wNRDCOvByOFSst9pQ0Cey/view?usp=sharing" target="_blank" class="alx-current">View my Current Transcript</a>
   </div>
 </div>
 
