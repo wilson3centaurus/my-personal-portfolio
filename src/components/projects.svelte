@@ -11,16 +11,16 @@
               
               <div class="project-info-heading">Made with: </div>
               <div class="icon"> 
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
+                <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
               </div>
               <div class="icon">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
+                <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
               </div>
               <div class="icon">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+                <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
               </div>
               <div class="icon">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-plain-wordmark.svg" />
+                <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-plain-wordmark.svg" />
               </div>
           </div>
           <div class="project-description">
@@ -55,10 +55,10 @@
               
               <div class="project-info-heading">Made with: </div>
               <div class="icon"> 
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
+                <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
               </div>
               <div class="icon">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+                <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
               </div>
           </div>
           <div class="project-description">
@@ -92,13 +92,13 @@
               
               <div class="project-info-heading">Made with: </div>
                 <div class="icon"> 
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
+                  <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
                 </div>
                 <div class="icon">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+                  <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
                 </div>
                 <div class="icon">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+                  <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
                 </div>
           </div>
           <div class="project-description">
@@ -131,13 +131,13 @@
               
               <div class="project-info-heading">Made with: </div>
                 <div class="icon"> 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
+                    <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"/>
                   </div>
                   <div class="icon">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+                    <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
                   </div>
                   <div class="icon">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+                    <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
                   </div>
           </div>
           <div class="project-description">
@@ -158,7 +158,7 @@
       </div>
   </div>
 
-  <!-- ====== Project 4 ===== -->
+  <!-- ====== Project 5 ===== -->
   <div class="card">
       <div class="left-side">
           <img class="project-image project-image1" src="../public/images/projects/project (6).gif" alt="" width="192" height="256">
@@ -170,10 +170,10 @@
               
               <div class="project-info-heading">Made with: </div>
                   <div class="icon">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+                    <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
                   </div>
                   <div class="icon">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+                    <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
                   </div>
           </div>
           <div class="project-description">
@@ -197,10 +197,10 @@
   <p class="this-site flex">
     You can also find this web portfolio on my
     <a href="https://github.com/wilson3centaurus/my-personal-portfolio.git" target="_blank">github</a>, built with 
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" width="25px"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" width="25px"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="25px"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="25px"/>  
+    <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg" width="25px"/>
+    <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" width="25px"/>
+    <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="25px"/>
+    <img alt="" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="25px"/>  
   </p>
 </div>
 
@@ -220,8 +220,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #fff 
    }
-
-  /* Left side (API interface) */
   .left-side {
     flex: 1;
     padding-right: 16px;
@@ -252,19 +250,9 @@
     width: 300px;
     height: 500px;
   }
-  /* Right side (project card) */
   .right-side {
     flex: 1;
     padding-left: 16px;
-  }
-  .project-info,
-  .areas-info {
-    display: flex;
-    margin-bottom: 6px;
-  }
-  .project-info .icon i {
-    font-size: 40px;
-    cursor: pointer;
   }
   .project-info-heading {
     color: #3182ce;
@@ -287,7 +275,6 @@
     color: #666;
     text-align: left;
   }
-
   .project-buttons {
     margin-top: 16px;
     display: flex;

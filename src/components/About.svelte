@@ -1,5 +1,3 @@
-
-
 <div class="md:px-[30%] text-center py-8 container">
     <div>
      <center><img src="../../public/images/wilson (2).jpg" alt="" class="profile-image"></center>

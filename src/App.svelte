@@ -7,7 +7,6 @@
   import Education from "./components/education.svelte";
   import Skills from "./components/skills.svelte";
   //import { page } from '$app/stores';
-
 </script>
 <Router>
   <nav class="flex justify-between shadow p-4 nav-bar">
@@ -66,10 +65,6 @@
     footer {
       background-color: #111827;
       height: 130px;
-    }
-    .activeLink {
-      background-color: tomato;
-      color: white;
     }
     .nav-bar {
       background-color: #111827;
