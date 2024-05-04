@@ -1,0 +1,56 @@
+.background-container {
+  background-image: none;
+  background-color: lightblue;
+}
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+}
+.my-education {
+  padding: 30px;
+  margin: 10%;
+  margin-top: auto;
+  margin-bottom: 50px;
+  background-color: rgb(131, 193, 255);
+  border-radius: 5px;
+  text-align: start;
+  display: block;
+  width: 900px;
+}
+span {
+  color: #3182ce;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.head {
+  font-size: 25px;
+  color: #3182ce;
+  cursor: pointer;
+  text-decoration: none;
+}
+.head:hover {
+  text-decoration: none;
+}
+.uni {
+  margin-bottom: 20px;
+}
+.last {
+  margin-bottom: 10px;
+}
+.alx-current {
+  color: #fff;
+  background-color: #3182ce;
+  padding: 5px;
+  border-radius: 5px;
+}
+.alx-current:hover {
+  opacity: 0.8;
+}
+p {
+  line-height: 10px;
+}

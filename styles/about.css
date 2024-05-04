@@ -1,0 +1,22 @@
+.profile-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border: 1px solid rgba(39, 55, 94, 0.9);
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px;
+}
+.background-container {
+  background-image: none ;
+  background-color: lightblue !important;
+}
+p {
+  color: #2c3e50;
+  margin-top: 10px;
+  width: 600px;
+  margin: 0 auto;
+}
+span {
+  color: #336699;
+}
