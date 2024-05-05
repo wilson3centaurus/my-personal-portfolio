@@ -8,7 +8,7 @@
   margin: 20px;
 }
 .background-container {
-  background-image: none ;
+  background-image: none;
   background-color: lightblue !important;
 }
 p {
@@ -19,4 +19,32 @@ p {
 }
 span {
   color: #336699;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  footer {
+    position: fixed;
+    height: 110px;
+  }
+  .container-md {
+    position: sticky;
+    width: 90%;
+    height: 10%;
+  }
+  p {
+    font-size: 13px;
+    width: 100%;
+  }
+  .profile-image {
+    margin-top: 120px;
+    width: 130px;
+    height: 130px;
+  }
 }

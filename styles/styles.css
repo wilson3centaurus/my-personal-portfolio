@@ -25,7 +25,7 @@ footer {
   text-align: center;
   align-items: center;
   font-size: 18px;
-  height: 75px;
+  height: 70px;
   border-radius: 8px;
 }
 .navs {
@@ -42,7 +42,7 @@ footer {
   opacity: 0.5;
 }
 .nom {
-  margin-top: 10px;
+  margin-top: 25px;
 }
 .logo {
   font-size: 23px;
@@ -131,9 +131,108 @@ footer {
   justify-content: center;
   margin: 70px;
 }
+.overlay-nav {
+  display: none;
+  color: black;
+  font-size: 50px;
+  font-weight: bolder;
+}
 .activeLink {
   color: white;
   background-color: #2c3e50;
   padding: 10px;
   border-radius: 5px;
+  margin-top: 15px;
+}
+
+
+/* Style for hamburger menu icon */
+.hamburger-icon {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .home-text-dev {
+    font-size: 18px;
+  }
+  .home-text {
+    font-size: 25px;
+  }
+  .name {
+    font-size: 31px;
+    font-weight: bolder;
+    line-height: 30px;
+    color: #95b1cf;
+  }
+  .name span {
+    display: block;
+    color: #95b1cf;
+    font-weight: bolder;
+  }
+  .content {
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  .home-btns {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  .home-btns a {
+    width: 160px;
+    margin-bottom: 10px;
+    background-color: #2a6fb4;
+  }
+  .container {
+    margin-top: 100px;
+  }
+  .background-container {
+    background-image: url("../images/night-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    height: 100vh;
+  }
+  .logo span {
+    font-size: 20px;
+    display: flex;
+  }
+  .logo img {
+    width: 32px;
+  }
+  .navs {
+    display: none;
+  }
+  .overlay-nav {
+    display: block;
+  }
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  footer {
+    position: fixed;
+    height: 110px;
+  }
+  .line {
+  width: 300px;
+}
+.mb-6 {
+  font-size: 20px;
+}
+.icon {
+  font-size: 12px;
+}
+.hamburger-icon {
+  display: block;
+}
 }

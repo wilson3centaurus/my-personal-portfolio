@@ -4,13 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tafadzwa Wilson Sedze</title>
+    <link rel="icon" type="image/svg+xml" href="/images/astronaut-helmet.png" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="../styles/styles.css" />
-    <link rel="stylesheet" href="../styles/about.css" />
-    <!-- Include Bootstrap icons library -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
       rel="stylesheet"
@@ -21,6 +19,9 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/about.css" />
+    <link rel="stylesheet" href="../styles/navOverlay.css" />
   </head>
 
   <body class="background-container">
@@ -30,7 +31,7 @@
         <a href="../index.html" class="logo">
           <span>
             <img src="../images/astronaut (1).png" alt="" width="35" />
-            Wilson Centaurus
+            Wilson Sedze
           </span>
         </a>
       </div>
@@ -56,6 +57,25 @@
       </ul>
 
       <div></div>
+      <div class="hamburger-menu">
+        <span class="bi bi-list hamburger-icon" onclick="openNav()"></span>
+      </div>
+      <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link" href="about.html">About Me</a>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="skills.html">Skills</a>
+          <a class="nav-link" href="education.html">Education</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
     </nav>
 
     <div class="container-md px-lg-5 text-center py-8">
@@ -82,7 +102,7 @@
     </div>
 
     <!-- Footer -->
-     <footer class="text-center py-4">
+    <footer class="text-center py-4">
       <div class="line"></div>
       <h3 class="mb-6">Connect with me</h3>
       <div class="icons">

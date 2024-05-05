@@ -12,3 +12,14 @@ for (let i = 0; i < navLinks.length; i++) {
     this.className += " activeLink";
   });
 }
+
+/* Open Overlay Nav*/
+function openNav() {
+  document.querySelector(".overlay").style.display = "block";
+  document.getElementById("myNav").style.height = "100%";
+}
+
+/* Close Overlay Nav*/
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}

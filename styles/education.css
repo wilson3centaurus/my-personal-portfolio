@@ -54,3 +54,30 @@ h1 {
 p {
   line-height: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .my-education {
+    margin: 0 auto;
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-top: 80px;
+  }
+  .education-head {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .head {
+    font-size: 16px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .uni {
+    margin-bottom: 40px;
+  }
+  .alx-current.btn {
+    font-size: 11px;
+    margin-bottom: 20px;
+  }
+}

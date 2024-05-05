@@ -35,7 +35,7 @@ span {
   max-width: 100%;
 }
 .icon-container .icon {
-  animation: bounce 2.5s infinite alternate;
+  animation: bounce 1s infinite alternate;
   border-radius: 5px;
   width: 90px;
   background-color: transparent;
@@ -54,5 +54,17 @@ span {
   }
   to {
     transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills-head {
+    font-size: 19px;
+  }
+  .container {
+    margin-top: 130px;
+  }
+  .icon-container .icon {
+    width: 70px;
   }
 }

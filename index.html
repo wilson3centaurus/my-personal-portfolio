@@ -6,6 +6,7 @@
     <title>Tafadzwa Wilson Sedze</title>
     <link rel="icon" type="image/svg+xml" href="/images/astronaut-helmet.png" />
     <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/navOverlay.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -28,7 +29,7 @@
         <a href="index.html" class="logo">
           <span>
             <img src="./images/astronaut (1).png" alt="" width="35" />
-            Wilson Centaurus
+            Wilson Sedze
           </span>
         </a>
       </div>
@@ -54,6 +55,25 @@
       </ul>
 
       <div></div>
+      <div class="hamburger-menu">
+        <span class="bi bi-list hamburger-icon" onclick="openNav()"></span>
+      </div>
+      <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="/pages/about.html">About Me</a>
+          <a class="nav-link" href="/pages/projects.html">Projects</a>
+          <a class="nav-link" href="/pages/skills.html">Skills</a>
+          <a class="nav-link" href="/pages/education.html">Education</a>
+          <a class="nav-link" href="/pages/contact.html">Contact</a>
+        </div>
+      </div>
     </nav>
 
     <div class="text-center container">
@@ -61,7 +81,7 @@
         <div>
           <h1 class="mb-4 text-center text-4xl home-text">Hi there👋</h1>
           <p class="font-weight-bold text-2xl name">
-            I am Tafadzwa Wilson Sedze
+            <span>I am</span> Tafadzwa Wilson Sedze
           </p>
           <span class="text-xl home-text-dev"
             >A Full-Stack Software Developer</span
@@ -139,7 +159,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-
     <script src="./scripts/script.js"></script>
+    <script></script>
   </body>
 </html>
