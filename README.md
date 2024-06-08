@@ -4,7 +4,7 @@ Hello and welcome to my web portfolio repo! I'm Tafadzwa Wilson Sedze, a passion
 
 ## Live
 
-You can view my site live [here](https://github.com/wilson3centaurus/).
+You can view my site live [here](https://wilsoncentaurus.netlify.app/).
 
 ## Installation
 
