@@ -3,170 +3,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tafadzwa Wilson Sedze</title>
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="./images/astronaut-helmet.png"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../styles/styles.css" />
-    <link rel="stylesheet" href="../styles/about.css" />
-    <link rel="stylesheet" href="../styles/navOverlay.css" />
+    <title>About | Tafadzwa Wilson Sedze</title>
+    <meta name="description" content="Tafadzwa Wilson Sedze: full-stack software engineer, systems developer and robotics instructor in Harare, Zimbabwe." />
+    <meta name="theme-color" content="#2F7D74" />
+    <meta property="og:title" content="About | Tafadzwa Wilson Sedze" />
+    <meta property="og:description" content="Tafadzwa Wilson Sedze: full-stack software engineer, systems developer and robotics instructor in Harare, Zimbabwe." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2040%2040%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%232F7D74%22%20stroke-width%3D%222.6%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M14%209V3M20%209V3M26%209V3M14%2037v-6M20%2037v-6M26%2037v-6M9%2014H3M9%2020H3M9%2026H3M37%2014h-6M37%2020h-6M37%2026h-6%22/%3E%3C/g%3E%3Crect%20x%3D%229%22%20y%3D%229%22%20width%3D%2222%22%20height%3D%2222%22%20rx%3D%225%22%20fill%3D%22%232F7D74%22/%3E%3Ccircle%20cx%3D%2214%22%20cy%3D%2214%22%20r%3D%221.8%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E" />
+    <script>
+      document.documentElement.classList.add("js");
+      if ("onpagereveal" in window) document.documentElement.classList.add("vt");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <script src="../scripts/main.js" defer></script>
   </head>
-
-  <body class="background-container">
-    <!-- Navbar -->
-    <nav class="justify-between shadow p-4 nav-bar">
-      <div>
-        <a href="../index.html" class="logo">
-          <span>
-            <img src="../images/astronaut (1).png" alt="" width="35" />
-            Wilson Sedze
-          </span>
-        </a>
+  <body data-page="about">
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="../index.html" aria-label="Wilson Sedze, home"><svg viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" style="color:var(--teal)"><path d="M14 9V3M20 9V3M26 9V3M14 37v-6M20 37v-6M26 37v-6M9 14H3M9 20H3M9 26H3M37 14h-6M37 20h-6M37 26h-6"/></g><rect class="chip-core" x="9" y="9" width="22" height="22" rx="5" fill="var(--teal)"/><circle cx="14" cy="14" r="1.8" fill="#fff"/></svg><span>Wilson Sedze</span></a>
+        <nav class="tabs" aria-label="Main">
+          <a class="tab" href="../index.html">Home</a>
+          <a class="tab" href="../pages/about.html" aria-current="page"><span class="pill"></span>About</a>
+          <a class="tab" href="../pages/projects.html">Projects</a>
+          <a class="tab" href="../pages/skills.html">Skills</a>
+          <a class="tab" href="../pages/education.html">Education</a>
+          <a class="tab" href="../pages/contact.html">Contact</a>
+        </nav>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><i class="bi bi-list"></i></button>
       </div>
-      <ul class="space-x-6 navs">
-        <li class="nav-item nom">
-          <a class="nav-link" href="../index.html">Home</a>
-        </li>
-        <li class="nav-item activeLink">
-          <a class="nav-link" href="about.html">About Me</a>
-        </li>
-        <li class="nav-item nom">
-          <a class="nav-link" href="projects.html">Projects</a>
-        </li>
-        <li class="nav-item nom">
-          <a class="nav-link" href="skills.html">Skills</a>
-        </li>
-        <li class="nav-item nom">
-          <a class="nav-link" href="education.html">Education</a>
-        </li>
-        <li class="nav-item nom">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-
-      <div></div>
-      <div class="hamburger-menu">
-        <span class="bi bi-list hamburger-icon" onclick="openNav()"></span>
-      </div>
-      <div id="myNav" class="overlay">
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-          >&times;</a
-        >
-
-        <!-- Overlay content -->
-        <div class="overlay-content">
-          <a class="nav-link" href="../index.html">Home</a>
-          <a class="nav-link" href="about.html">About Me</a>
-          <a class="nav-link" href="projects.html">Projects</a>
-          <a class="nav-link" href="skills.html">Skills</a>
-          <a class="nav-link" href="education.html">Education</a>
-          <a class="nav-link" href="contact.html">Contact</a>
-        </div>
-      </div>
+    </header>
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
+      <a href="../index.html">Home</a>
+      <a href="../pages/about.html" aria-current="page">About</a>
+      <a href="../pages/projects.html">Projects</a>
+      <a href="../pages/skills.html">Skills</a>
+      <a href="../pages/education.html">Education</a>
+      <a href="../pages/contact.html">Contact</a>
     </nav>
 
-    <div class="container-md px-lg-5 text-center py-8">
-      <div>
-        <center>
-          <img
-            src="../images/wilson (2).jpg"
-            alt=""
-            class="profile-image rounded-circle"
-          />
-        </center>
-        <p>
-          Hi there! I'm Tafadzwa Wilson Sedze, a full-stack software engineer
-          and First Class Computer Science graduate from Manicaland State
-          University of Applied Sciences, based in Harare, Zimbabwe.
-          <br /><br />
-          I build production software and the robots that run on it. I designed
-          and maintain RoboCore, RoboKorda Africa's internal ERP, and build
-          systems for schools such as an RFID staff attendance tracker. My core
-          stack is Next.js, TypeScript and Supabase, with hands-on ESP32,
-          Arduino and Raspberry Pi work.
-          <br /><br />
-          As a Robotics and Coding Instructor, I've led student teams from
-          national wins in Zimbabwe to international robotics competitions in
-          Switzerland (2025), India (2025) and China (2026).
-          <br />
-          <span>@wilson centaurus</span>
-        </p>
-      </div>
-    </div>
+    <main id="main">
+      <div class="wrap">
+        <div class="page-head" data-reveal>
+          <h1>About me</h1>
+        </div>
+        <div class="about-grid">
+          <div class="portrait" data-reveal style="--d:0.00s">
+            <div class="ring" aria-hidden="true"></div>
+            <img src="../images/web/wilson-square.webp" alt="Portrait of Tafadzwa Wilson Sedze" />
+          </div>
+          <div class="bio">
+            <p data-reveal style="--d:0.00s">I'm Tafadzwa Wilson Sedze, a full-stack software engineer and First Class Computer Science graduate based in Harare, Zimbabwe.</p>
+            <p data-reveal style="--d:0.07s">I build production software and the robots that run on it. I designed and maintain RoboCore, RoboKorda Africa's internal ERP, and build systems for schools such as an RFID staff attendance tracker. My core stack is Next.js, TypeScript and Supabase, and I'm just as comfortable with an ESP32, an Arduino or a Raspberry Pi on the bench.</p>
+            <p data-reveal style="--d:0.14s">As a Robotics and Coding Instructor, I've taken student teams from national wins in Zimbabwe to international robotics competitions in Switzerland, India and China.</p>
+            <div class="facts">
+              <div class="card fact" data-reveal style="--d:0.21s"><b>Harare, Zimbabwe</b><span>Based in</span></div>
+              <div class="card fact" data-reveal style="--d:0.28s"><b>BSc CS, First Class</b><span>MSUAS, 2026</span></div>
+              <div class="card fact" data-reveal style="--d:0.35s"><b>Next.js and Supabase</b><span>Core stack</span></div>
+            </div>
+          </div>
+        </div>
 
-    <!-- Footer -->
-    <footer class="text-center py-4">
-      <div class="line"></div>
-      <h3 class="mb-6">Connect with me</h3>
-      <div class="icons">
-        <a
-          href="https://github.com/wilson3centaurus"
-          target="_blank"
-          aria-label="Github"
-          rel="noopener noreferrer"
-          class="text-white"
-          ><i class="bi bi-github icon"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/tafadzwa-wilson-sedze-2088b6177/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="LinkedIn"
-          class="text-white"
-          ><i class="bi bi-linkedin icon"></i
-        ></a>
-        <a
-          href="https://twitter.com/WilsonCentaurus"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Twitter"
-          class="text-white"
-          ><i class="bi bi-twitter icon"></i
-        ></a>
-        <a
-          href="https://www.facebook.com/wilson.sedze"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Facebook"
-          class="text-white"
-          ><i class="bi bi-facebook icon"></i
-        ></a>
-        <a
-          href="https://wa.me/+263787209882"
-          rel="noopener noreferrer"
-          aria-label="Contact"
-          target="_blank"
-          class="text-white"
-          ><i class="bi bi-whatsapp icon"></i
-        ></a>
+        <section style="margin-top:36px">
+          <h2 class="section-title" data-reveal style="--d:0.00s">Experience</h2>
+          <div class="timeline">
+            <div class="card tl-item" data-reveal style="--d:0.00s">
+              <div class="tl-head"><h3>Systems Developer and Robotics &amp; Coding Instructor</h3><span class="tl-date">2025 – Present</span></div>
+              <div class="tl-org">RoboKorda Africa, Rusununguko ZIMFEP High School</div>
+              <ul>
+                <li>Designed, built and maintain RoboCore, RoboKorda Africa's internal ERP on Next.js and Supabase, live since March 2026.</li>
+                <li>Build enterprise systems for schools, including an RFID staff attendance system where ESP32 readers feed a live Next.js dashboard through Supabase Realtime.</li>
+                <li>Build live telemetry dashboards and control consoles for competition robots: a mining rover and two underwater drones.</li>
+                <li>Led student teams to international robotics competitions in Switzerland (2025), India (2025) and China (2026) after national wins.</li>
+                <li>Teach robotics and coding, and develop curriculum content for RoboKorda's school programmes.</li>
+              </ul>
+            </div>
+            <div class="card tl-item past" data-reveal style="--d:0.00s">
+              <div class="tl-head"><h3>Software Engineer and Robotics Instructor, Intern</h3><span class="tl-date">Jun 2024 – Jun 2025</span></div>
+              <div class="tl-org">RoboKorda Africa</div>
+              <ul>
+                <li>Built and maintained web platforms with Next.js, React, TypeScript, Tailwind CSS and Supabase, deployed on Vercel.</li>
+                <li>Delivered dashboards, admin flows and database-driven features, and designed a PWA architecture so key tools kept working offline.</li>
+                <li>Supported robotics and coding classes with lesson content, device prototyping and competition preparation.</li>
+              </ul>
+            </div>
+          </div>
+          <div data-reveal style="--d:0.00s" style="margin-top:8px"><a class="btn btn-primary" href="../assets/documents/Tafadzwa-Wilson-Sedze-CV.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-arrow-down"></i> Download full CV</a></div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>&copy; <span data-year>2026</span> Tafadzwa Wilson Sedze. Built in Harare, Zimbabwe.</p>
+        <div class="socials">
+          <a href="https://github.com/wilson3centaurus" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/tafadzwa-wilson-sedze-2088b6177/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="https://wa.me/263787209882" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <a href="mailto:tafadzwawilsonsedze@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+          <a href="https://twitter.com/WilsonCentaurus" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="bi bi-twitter-x"></i></a>
+        </div>
       </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../scripts/script.js"></script>
   </body>
 </html>
