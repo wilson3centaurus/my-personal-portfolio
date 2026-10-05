@@ -6,6 +6,11 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  position: relative;
 }
 .my-education {
   padding: 30px;
@@ -16,7 +21,8 @@
   border-radius: 5px;
   text-align: start;
   display: block;
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
 }
 span {
   color: #3182ce;
@@ -47,6 +53,17 @@ h1 {
   background-color: #3182ce;
   padding: 5px;
   border-radius: 5px;
+}
+.education-entry {
+  margin-bottom: 28px;
+}
+.education-entry p {
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+.education-entry .head {
+  display: inline-block;
+  margin-bottom: 8px;
 }
 .alx-current:hover {
   opacity: 0.8;
