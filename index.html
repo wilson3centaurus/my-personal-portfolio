@@ -1,149 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tafadzwa Wilson Sedze | Software engineer and robotics</title>
-    <meta name="description" content="Tafadzwa Wilson Sedze: full-stack software engineer, systems developer and robotics instructor in Harare, Zimbabwe." />
-    <meta name="theme-color" content="#2F7D74" />
-    <meta property="og:title" content="Tafadzwa Wilson Sedze | Software engineer and robotics" />
-    <meta property="og:description" content="Tafadzwa Wilson Sedze: full-stack software engineer, systems developer and robotics instructor in Harare, Zimbabwe." />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2040%2040%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%232F7D74%22%20stroke-width%3D%222.6%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M14%209V3M20%209V3M26%209V3M14%2037v-6M20%2037v-6M26%2037v-6M9%2014H3M9%2020H3M9%2026H3M37%2014h-6M37%2020h-6M37%2026h-6%22/%3E%3C/g%3E%3Crect%20x%3D%229%22%20y%3D%229%22%20width%3D%2222%22%20height%3D%2222%22%20rx%3D%225%22%20fill%3D%22%232F7D74%22/%3E%3Ccircle%20cx%3D%2214%22%20cy%3D%2214%22%20r%3D%221.8%22%20fill%3D%22%23fff%22/%3E%3C/svg%3E" />
-    <script>
-      document.documentElement.classList.add("js");
-      if ("onpagereveal" in window) document.documentElement.classList.add("vt");
-    </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <script src="scripts/main.js" defer></script>
-  </head>
-  <body data-page="home">
-    <header class="site-header">
-      <div class="wrap">
-        <a class="brand" href="index.html" aria-label="Wilson Sedze, home"><svg viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" style="color:var(--teal)"><path d="M14 9V3M20 9V3M26 9V3M14 37v-6M20 37v-6M26 37v-6M9 14H3M9 20H3M9 26H3M37 14h-6M37 20h-6M37 26h-6"/></g><rect class="chip-core" x="9" y="9" width="22" height="22" rx="5" fill="var(--teal)"/><circle cx="14" cy="14" r="1.8" fill="#fff"/></svg><span>Wilson Sedze</span></a>
-        <nav class="tabs" aria-label="Main">
-          <a class="tab" href="index.html" aria-current="page"><span class="pill"></span>Home</a>
-          <a class="tab" href="pages/about.html">About</a>
-          <a class="tab" href="pages/projects.html">Projects</a>
-          <a class="tab" href="pages/skills.html">Skills</a>
-          <a class="tab" href="pages/education.html">Education</a>
-          <a class="tab" href="pages/contact.html">Contact</a>
-        </nav>
-        <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><i class="bi bi-list"></i></button>
-      </div>
-    </header>
-    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="pages/about.html">About</a>
-      <a href="pages/projects.html">Projects</a>
-      <a href="pages/skills.html">Skills</a>
-      <a href="pages/education.html">Education</a>
-      <a href="pages/contact.html">Contact</a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="description" content="Tafadzwa Wilson Sedze — Zimbabwean software engineer building production systems, device management, Android platforms and connected robotics.">
+  <meta property="og:title" content="Wilson Sedze — Software engineer, systems developer, robotics & IoT">
+  <meta property="og:description" content="Production software, embedded systems and thoughtful engineering from Zimbabwe.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wilsonsedze.vercel.app/">
+  <meta property="og:image" content="https://wilsonsedze.vercel.app/images/web/wilson-alt.webp">
+  <link rel="canonical" href="https://wilsonsedze.vercel.app/">
+  <link rel="icon" type="image/svg+xml" href="/assets/brand/mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/portfolio-2026.css">
+  <script src="/scripts/portfolio-2026.js" defer></script>
+  <title>Tafadzwa Wilson Sedze — Building things that work.</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="shell nav-shell">
+      <a class="wordmark" href="#top" aria-label="Wilson Sedze homepage"><span class="wordmark-symbol">w<span class="point">.</span>s</span><span class="wordmark-divider"></span><span class="wordmark-name">Wilson<br>Sedze</span></a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#education">Education</a>
+      </nav>
+      <a class="nav-contact" href="mailto:tafadzwawilsonsedze@gmail.com">Let's talk <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#work">Work</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
     </nav>
-
-    <main id="main">
-      <div class="wrap">
-        <section class="hero">
-          <div>
-            <h1><span class="line"><span>Tafadzwa</span></span><span class="line"><span>Wilson Sedze</span></span></h1>
-            <p class="role">I'm a <span class="typed" data-words='["full-stack software engineer", "systems developer", "robotics and IoT builder", "robotics and coding instructor"]'>full-stack software engineer</span><span class="caret" aria-hidden="true"></span></p>
-            <p class="lede">First Class Computer Science graduate building production software and the robots that run on it. I designed and maintain RoboKorda Africa's internal ERP and build systems for schools in Zimbabwe.</p>
-            <div class="cta">
-              <a class="btn btn-primary" href="assets/documents/Tafadzwa-Wilson-Sedze-CV.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-arrow-down"></i> Download CV</a>
-              <a class="btn btn-ghost" href="pages/projects.html"><i class="bi bi-grid-1x2"></i> See my projects</a>
-            </div>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="intro-title">
+      <div class="hero-topline"><span>Independent thinking. Practical engineering.</span><span class="topline-right">HARARE, ZIMBABWE <span class="live-dot"></span> OPEN TO OPPORTUNITIES</span></div>
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="kicker"><span class="index">01 / INTRODUCTION</span> FULL-STACK SOFTWARE ENGINEER · SYSTEMS DEVELOPER · ROBOTICS & IoT</p>
+          <h1 id="intro-title">I build <em>useful</em><br>things that<br>last<span class="punctuation">.</span></h1>
+          <p class="hero-summary">I'm <strong>Tafadzwa Wilson Sedze</strong>. I turn complicated ideas into dependable software—from internal ERPs and Android device management to robots that sense the world around them.</p>
+          <div class="hero-actions"><a class="action-primary" href="#work">Explore selected work <span aria-hidden="true">↘</span></a><a class="text-link" href="/resume.html">View / print résumé <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-footnote"><span class="thin-line"></span><span>First Class Honours · BSc Computer Science, MSUAS<br>Available for remote work and relocation opportunities</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <img class="hero-portrait" src="/images/web/wilson-alt.webp" alt="Tafadzwa Wilson Sedze, software engineer" fetchpriority="high">
           </div>
-          <svg class="circuit" viewBox="0 0 480 400" role="img" aria-label="Animated circuit board with a chip labelled TWS">
-<path class="trace" pathLength="100" d="M180 160 H120 L95 135 H40" style="animation-delay:0.15s"/>
-<path class="trace" pathLength="100" d="M180 185 H60" style="animation-delay:0.20s"/>
-<path class="trace" pathLength="100" d="M180 215 H110 L85 240 H30" style="animation-delay:0.25s"/>
-<path class="trace" pathLength="100" d="M180 240 H140 L120 260 V320 H70" style="animation-delay:0.30s"/>
-<path class="trace" pathLength="100" d="M300 160 H350 L375 135 H440" style="animation-delay:0.35s"/>
-<path class="trace" pathLength="100" d="M300 185 H420" style="animation-delay:0.40s"/>
-<path class="trace" pathLength="100" d="M300 215 H370 L395 240 H450" style="animation-delay:0.45s"/>
-<path class="trace" pathLength="100" d="M300 240 H340 L360 260 V330 H420" style="animation-delay:0.50s"/>
-<path class="trace" pathLength="100" d="M205 140 V90 L180 65 V30" style="animation-delay:0.55s"/>
-<path class="trace" pathLength="100" d="M240 140 V20" style="animation-delay:0.60s"/>
-<path class="trace" pathLength="100" d="M275 140 V100 L300 75 H360" style="animation-delay:0.65s"/>
-<path class="trace" pathLength="100" d="M205 260 V320 L180 345 V380" style="animation-delay:0.70s"/>
-<path class="trace" pathLength="100" d="M240 260 V370" style="animation-delay:0.75s"/>
-<path class="trace" pathLength="100" d="M275 260 V310 L295 330 V385" style="animation-delay:0.80s"/>
-<path class="pulse" pathLength="100" d="M180 160 H120 L95 135 H40" style="animation-delay:1.8s"/>
-<path class="pulse" pathLength="100" d="M300 185 H420" style="animation-delay:2.5s"/>
-<path class="pulse" pathLength="100" d="M240 140 V20" style="animation-delay:3.1s"/>
-<path class="pulse" pathLength="100" d="M180 240 H140 L120 260 V320 H70" style="animation-delay:3.6s"/>
-<path class="pulse" pathLength="100" d="M300 215 H370 L395 240 H450" style="animation-delay:4.2s"/>
-<path class="pulse" pathLength="100" d="M240 260 V370" style="animation-delay:4.8s"/>
-<path class="pulse" pathLength="100" d="M275 140 V100 L300 75 H360" style="animation-delay:5.3s"/>
-<path class="pulse" pathLength="100" d="M180 215 H110 L85 240 H30" style="animation-delay:5.9s"/>
-<circle class="pad" cx="40" cy="135" r="6" style="animation-delay:0.90s"/>
-<circle class="pad" cx="60" cy="185" r="6" style="animation-delay:0.94s"/>
-<circle class="pad" cx="30" cy="240" r="6" style="animation-delay:0.98s"/>
-<circle class="pad" cx="70" cy="320" r="6" style="animation-delay:1.02s"/>
-<circle class="pad" cx="440" cy="135" r="6" style="animation-delay:1.06s"/>
-<circle class="pad" cx="420" cy="185" r="6" style="animation-delay:1.10s"/>
-<circle class="pad" cx="450" cy="240" r="6" style="animation-delay:1.14s"/>
-<circle class="pad" cx="420" cy="330" r="6" style="animation-delay:1.18s"/>
-<circle class="pad" cx="180" cy="30" r="6" style="animation-delay:1.22s"/>
-<circle class="pad" cx="240" cy="20" r="6" style="animation-delay:1.26s"/>
-<circle class="pad" cx="360" cy="75" r="6" style="animation-delay:1.30s"/>
-<circle class="pad" cx="180" cy="380" r="6" style="animation-delay:1.34s"/>
-<circle class="pad" cx="240" cy="370" r="6" style="animation-delay:1.38s"/>
-<circle class="pad" cx="295" cy="385" r="6" style="animation-delay:1.42s"/>
-<g class="circuit-chip">
-  <rect class="chip-body" x="180" y="140" width="120" height="120" rx="16"/>
-  <circle class="chip-led" cx="198" cy="158" r="5"/>
-  <text class="chip-label" x="240" y="211" text-anchor="middle">TWS</text>
-</g>
-</svg>
-        </section>
-
-        <section>
-          <h2 class="section-title" data-reveal style="--d:0.00s">On the international stage</h2>
-          <p class="stage-note" data-reveal style="--d:0.00s">Student robotics teams I led to international competitions after winning nationally in Zimbabwe.</p>
-          <div class="stage">
-          <div class="card stage-card" data-reveal style="--d:0.00s"><svg class="route" viewBox="0 0 64 30" aria-hidden="true"><path d="M4 24 C 20 2, 44 2, 60 18" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="60" cy="18" r="3.5" fill="var(--teal)"/></svg>
-            <div class="country">Switzerland</div><div class="year">2025</div><div class="school">Mavhudzi High School</div>
-          </div>
-          <div class="card stage-card" data-reveal style="--d:0.07s"><svg class="route" viewBox="0 0 64 30" aria-hidden="true"><path d="M4 24 C 20 2, 44 2, 60 18" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="60" cy="18" r="3.5" fill="var(--teal)"/></svg>
-            <div class="country">India</div><div class="year">2025</div><div class="school">Rusununguko ZIMFEP High School</div>
-          </div>
-          <div class="card stage-card" data-reveal style="--d:0.14s"><svg class="route" viewBox="0 0 64 30" aria-hidden="true"><path d="M4 24 C 20 2, 44 2, 60 18" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="60" cy="18" r="3.5" fill="var(--teal)"/></svg>
-            <div class="country">China</div><div class="year">2026</div><div class="school">Rusununguko ZIMFEP High School</div>
-          </div>
-          </div>
-        </section>
-
-        <section>
-          <h2 class="section-title" data-reveal style="--d:0.00s">Recent work</h2>
-          <div class="teasers">
-            <a class="card teaser" href="pages/projects.html#kiosk" data-reveal style="--d:0.00s">
-              <img src="images/web/kiosk.webp" alt="Kiosk+ dashboard on laptop and phone" loading="lazy" />
-              <div><h3>Kiosk+ patient robot kiosk</h3><p>Hospital reception kiosk with voice in 16 Zimbabwean languages.</p></div>
-            </a>
-            <a class="card teaser" href="pages/projects.html#robocore" data-reveal style="--d:0.07s">
-              <img src="images/web/robocore.svg" alt="RoboCore ERP dashboard" loading="lazy" />
-              <div><h3>RoboCore ERP</h3><p>RoboKorda Africa's internal ERP, live since March 2026.</p></div>
-            </a>
-          </div>
-        </section>
-      </div>
-    </main>
-
-    <footer class="site-footer">
-      <div class="wrap">
-        <p>&copy; <span data-year>2026</span> Tafadzwa Wilson Sedze. Built in Harare, Zimbabwe.</p>
-        <div class="socials">
-          <a href="https://github.com/wilson3centaurus" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
-          <a href="https://www.linkedin.com/in/tafadzwa-wilson-sedze-2088b6177/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-          <a href="https://wa.me/263787209882" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-          <a href="mailto:tafadzwawilsonsedze@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
-          <a href="https://twitter.com/WilsonCentaurus" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="bi bi-twitter-x"></i></a>
+          <div class="portrait-side-note">NOT A STOCK PHOTO. <span>A REAL BUILDER.</span></div>
+          <div class="portrait-bottom"><span>FIG. 01</span><span>WILSON SEDZE / 2026</span><span class="corner-glyph">↗</span></div>
         </div>
       </div>
-    </footer>
-  </body>
-</html>
+    </section>
+    <div class="ticker-band" aria-label="Specialties"><div class="shell ticker-inner"><span>SOFTWARE</span><span aria-hidden="true">✳</span><span>CONNECTED SYSTEMS</span><span aria-hidden="true">✳</span><span>ROBOTICS</span><span aria-hidden="true">✳</span><span>THOUGHTFUL EXECUTION</span></div></div>
+    <section class="section shell" id="work" aria-labelledby="work-heading">
+      <div class="section-heading"><p class="kicker">02 / SELECTED PROJECTS</p><div class="heading-row"><h2 id="work-heading">Work in the <em>real world.</em></h2><p>From code on a screen to systems in the field. A selection of engineering projects I've built or contributed to.</p></div></div>
+      <div class="projects">
+        <article class="project project-large" id="primeos">
+          <div class="project-image image-a"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82" alt="Real photograph of electronics and engineering workspace, illustrative of systems development" loading="lazy"><span class="image-label">ILLUSTRATIVE PHOTOGRAPHY</span></div>
+          <div class="project-text"><div class="project-eyebrow"><span>01 / SYSTEMS & DEVICE MANAGEMENT</span><span>2026</span></div><h3>PrimeOS <span class="title-joiner">+</span> PrimeSecure</h3><p>Rebuilt an Android 11-based student laptop OS and integrated a custom Device Owner MDM. Designed for device policies, remote provisioning, content distribution and school-fleet control.</p><ul class="tags"><li>Android 11</li><li>Device Owner APIs</li><li>ADB</li><li>Supabase</li></ul><details class="project-details"><summary>Read project notes <span>+</span></summary><div>Developed for RoboKorda Africa with multi-school management in mind. Includes app-install controls, settings restrictions, communication, file distribution and device-location workflows. Product infrastructure is private.</div></details></div>
+        </article>
+        <article class="project project-small" id="robocore">
+          <div class="project-image image-b"><img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1100&q=82" alt="Real photograph of a data-center server rack, illustrative of software infrastructure" loading="lazy"><span class="image-label">ILLUSTRATIVE PHOTOGRAPHY</span></div>
+          <div class="project-text"><div class="project-eyebrow"><span>02 / BUSINESS SOFTWARE</span><span>2026</span></div><h3>RoboCore ERP</h3><p>An internal enterprise system for RoboKorda Africa. I own the database design, administration workflows, deployments and continuing improvements. In production since March 2026.</p><ul class="tags"><li>Next.js</li><li>TypeScript</li><li>Supabase</li><li>PostgreSQL</li></ul><details class="project-details"><summary>Read project notes <span>+</span></summary><div>Includes structured operational data and administration tools. The production ERP is internal, so screenshots and private code are not published.</div></details></div>
+        </article>
+        <article class="project project-small" id="move">
+          <div class="project-image image-c"><img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=1100&q=82" alt="Real photograph of cardboard shipping boxes inside a delivery vehicle" loading="lazy"><span class="image-label">ILLUSTRATIVE PHOTOGRAPHY</span></div>
+          <div class="project-text"><div class="project-eyebrow"><span>03 / LOGISTICS MARKETPLACE</span><span>2026</span></div><h3>Move.</h3><p>A goods-transport and parcel marketplace with negotiated fares, courier bidding, in-app chat, GPS location updates and Paynow / EcoCash integration.</p><ul class="tags"><li>Next.js</li><li>Supabase RLS</li><li>Google Maps</li><li>Android</li></ul><details class="project-details"><summary>Read project notes <span>+</span></summary><div>Implemented courier onboarding controls, secure delivery-code confirmation and a packaged Android experience using Bubblewrap.</div></details></div>
+        </article>
+        <article class="project project-large" id="kiosk">
+          <div class="project-image image-d"><img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1400&q=82" alt="Real photograph of a hospital reception lobby, illustrative of the kiosk setting" loading="lazy"><span class="image-label">ILLUSTRATIVE PHOTOGRAPHY</span></div>
+          <div class="project-text"><div class="project-eyebrow"><span>04 / HEALTHCARE TECHNOLOGY</span><span>2026</span></div><h3>Kiosk+ <span class="title-joiner">patient reception</span></h3><p>My final-year capstone and Cimas Healthathon 3.0 entry: a digital hospital receptionist concept for triage, queue handling, appointments and doctor dashboards, with voice interaction across 16 Zimbabwean languages.</p><ul class="tags"><li>Next.js 14</li><li>Prisma</li><li>Web Speech API</li></ul><details class="project-details"><summary>Read project notes <span>+</span></summary><div>Designed around the workflow needs of Mutare Provincial Hospital. It is a capstone prototype rather than a live hospital service.</div></details></div>
+        </article>
+        <article class="project project-medium" id="iot">
+          <div class="project-image image-e"><img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1100&q=82" alt="Real photograph of a microcontroller and sensor development board, illustrative of IoT hardware" loading="lazy"><span class="image-label">ILLUSTRATIVE PHOTOGRAPHY</span></div>
+          <div class="project-text"><div class="project-eyebrow"><span>05 / EMBEDDED SYSTEMS</span><span>2025–26</span></div><h3>Robotics & live telemetry</h3><p>ESP32-powered RFID attendance, a gas-sensing mining rover console and dashboards for underwater drones streaming water metrics and camera feeds.</p><ul class="tags"><li>ESP32</li><li>Supabase Realtime</li><li>Web dashboards</li></ul><details class="project-details"><summary>Read project notes <span>+</span></summary><div>RFID reader check-ins flow into a live web dashboard. Additional robot consoles cover gas, climate, temperature, turbidity, pH and camera telemetry.</div></details></div>
+        </article>
+        <article class="project project-medium" id="carbon">
+          <div class="project-image image-f"><img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1100&q=82" alt="Real photograph of a person assembling electronics at a workbench" loading="lazy"><span class="image-label">ILLUSTRATIVE PHOTOGRAPHY</span></div>
+          <div class="project-text"><div class="project-eyebrow"><span>06 / ENVIRONMENTAL PROTOTYPING</span><span>2026</span></div><h3>Carbon capture model</h3><p>A scale model of Hwange Power Station with a sensor-monitoring stage. An ESP32 streams MQ-9, MQ-135 and DHT11 readings directly into a browser using Web Serial.</p><ul class="tags"><li>ESP32</li><li>MQ sensors</li><li>Web Serial</li></ul><details class="project-details"><summary>Read project notes <span>+</span></summary><div>Built as a physical model and demonstration of browser-connected environmental monitoring, not a commercial carbon capture installation.</div></details></div>
+        </article>
+      </div>
+      <p class="photo-disclaimer">Project photography is real editorial imagery used for context, <strong>not screenshots or photographs of the actual products</strong>. See <a href="#image-credits">photo credits</a>. Private client systems are described without exposing restricted details.</p>
+    </section>
+    <section class="about-section" id="about"><div class="shell about-grid">
+      <div><p class="kicker light">03 / ABOUT</p><h2>Software is only<br>half the <em>story.</em></h2></div>
+      <div class="about-copy"><p class="large-quote">I care about the moment a project leaves the editor and starts making someone's day easier.</p><p>I'm a Zimbabwe-based full-stack engineer and First Class Honours Computer Science graduate. My work moves between interfaces, APIs, databases, Linux infrastructure and embedded hardware. I take products from ambiguous requirements through implementation, deployment and maintenance.</p><p>I'm also a robotics and coding instructor with RoboKorda Africa. Supporting student teams has taken our work from Zimbabwean national competitions to international events in Switzerland, India and China.</p><div class="about-links"><a href="https://github.com/wilson3centaurus" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/tafadzwa-wilson-sedze-2088b6177/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="/resume.html">Detailed résumé ↗</a></div></div>
+    </div></section>
+    <section class="section shell" id="experience">
+      <div class="section-heading"><p class="kicker">04 / EXPERIENCE & PRACTICE</p><div class="heading-row"><h2>Where I've <em>put in the work.</em></h2><p>Engineering and teaching, side by side. Dates and roles reflect my current résumé.</p></div></div>
+      <div class="experience-list">
+        <article class="experience-item"><span class="experience-year">JUL 2026 — NOW</span><div><h3>Systems Developer & Robotics and Coding Instructor</h3><p class="experience-org">RoboKorda Africa · Rusununguko ZIMFEP High School</p><p>Own RoboCore's engineering and deployment, create school systems and real-time IoT control dashboards, and teach robotics and coding.</p></div><span class="experience-number">01</span></article>
+        <article class="experience-item"><span class="experience-year">2024 — NOW</span><div><h3>Freelance Full-Stack Developer</h3><p class="experience-org">Independent · Zimbabwe</p><p>Delivered 10+ projects across web, mobile and desktop/database systems, managing client requirements from scoping through delivery.</p></div><span class="experience-number">02</span></article>
+        <article class="experience-item"><span class="experience-year">JUN 2024 — JUN 2025</span><div><h3>Software Engineer & Robotics Instructor (Intern)</h3><p class="experience-org">RoboKorda Africa</p><p>Built Next.js / React platforms, Supabase-backed features and offline-capable PWA architectures, alongside robotics teaching and prototyping.</p></div><span class="experience-number">03</span></article>
+      </div>
+    </section>
+    <section class="skills-section" id="skills"><div class="shell">
+      <div class="section-heading"><p class="kicker">05 / THE TOOLKIT</p><div class="heading-row"><h2>Tools change. <em>Curiosity stays.</em></h2><p>The technologies I use to build, ship and keep systems running.</p></div></div>
+      <div class="skill-columns">
+        <div><span class="skill-id">01 — FRONTEND / MOBILE</span><h3>Interfaces</h3><p>Next.js · React · TypeScript · JavaScript · Tailwind CSS · React Native · Flutter · PWAs</p></div>
+        <div><span class="skill-id">02 — BACKEND / DATA</span><h3>Systems</h3><p>Node.js · Python · Flask · PHP · Supabase · PostgreSQL · Prisma · Firebase · SQLite · MySQL</p></div>
+        <div><span class="skill-id">03 — INFRASTRUCTURE</span><h3>Delivery</h3><p>Linux VPS · Self-hosted Supabase · Git & GitHub · Vercel · CI-style deployments</p></div>
+        <div><span class="skill-id">04 — HARDWARE / IoT</span><h3>The physical world</h3><p>ESP32 · Arduino C/C++ · Raspberry Pi · MicroPython · LoRa · RFID · Sensors · Web Serial</p></div>
+      </div>
+    </div></section>
+    <section class="section shell education-section" id="education">
+      <div class="section-heading"><p class="kicker">06 / EDUCATION</p><div class="heading-row"><h2>The <em>foundation.</em></h2><p>Formal learning, professional development and lessons that have survived real projects.</p></div></div>
+      <div class="education-grid"><div class="degree"><span class="degree-mark">BSc<span>.</span></span><h3>Computer Science<br>First Class Honours</h3><p>Manicaland State University of Applied Sciences · 2022–2026</p><span class="degree-note">ZIMBABWE / CLASS OF 2026</span></div><div class="certificate-list"><p class="cert-title">SELECTED TRAINING & CERTIFICATIONS</p><div><span>ALX Africa / Holberton</span><strong>Software Engineering — Back-end Specialisation</strong><small>2025</small></div><div><span>ICDL Africa</span><strong>Robotics</strong><small>2025</small></div><div><span>HP LIFE</span><strong>AI for Beginners · Data Science & Analytics · Agile Project Management · Business Email</strong><small>2025</small></div><div><span>National Foundation Certificate</span><strong>Computer Operations & Packages</strong><small>2019</small></div></div></div>
+    </section>
+    <section class="contact-section" id="contact"><div class="shell contact-layout"><div><p class="kicker light">07 / WHAT'S NEXT?</p><h2>Have a problem<br>worth <em>solving?</em></h2><p>I'm based in Harare and open to thoughtful engineering roles, collaborations, remote work and relocation.</p></div><div class="contact-actions"><a class="email-link" href="mailto:tafadzwawilsonsedze@gmail.com">Let's make contact <span aria-hidden="true">↗</span></a><a href="mailto:tafadzwawilsonsedze@gmail.com">tafadzwawilsonsedze@gmail.com</a><a href="tel:+263787209882">+263 78 720 9882</a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="shell"><div class="footer-top"><a class="footer-brand" href="#top">w<span>.</span>s</a><div class="footer-socials"><a href="https://github.com/wilson3centaurus" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/tafadzwa-wilson-sedze-2088b6177/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://wa.me/263787209882" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a href="/resume.html">Résumé ↗</a></div></div><div class="footer-meta"><span>© <span data-year>2026</span> TAFADZWA WILSON SEDZE</span><span>DESIGNED WITH INTENT. BUILT IN ZIMBABWE.</span><a href="#top">BACK TO TOP ↑</a></div><details class="credits" id="image-credits"><summary>Editorial image credits</summary><p>Contextual project images are real photographs served by <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a>. These illustrative images are not documentation of the individual software or robotics projects.</p></details></div></footer>
+</body></html>
