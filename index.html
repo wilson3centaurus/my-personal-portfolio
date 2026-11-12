@@ -9,14 +9,34 @@
   <meta property="og:description" content="Production software, embedded systems and thoughtful engineering from Zimbabwe.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://wilsonsedze.vercel.app/">
-  <meta property="og:image" content="https://wilsonsedze.vercel.app/assets/media/portrait-blackshirt.webp">
+  <meta property="og:image" content="https://wilsonsedze.vercel.app/assets/media/portrait-red.webp">
   <link rel="canonical" href="https://wilsonsedze.vercel.app/">
   <link rel="icon" type="image/svg+xml" href="/assets/brand/mark.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  <link rel="stylesheet" href="/styles/portfolio-2026.css">
+  <link rel="stylesheet" href="/styles/portfolio-2026.css?v=toolkit-grid-20261113">
+  <style id="skills-grid-stable-v3">
+/* Critical toolkit presentation: cached CSS must not turn icons into bullets or unbounded SVGs. */
+#skills .skill-columns{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:1px solid #31332e;align-items:stretch}
+#skills .skill-columns>.skill-category{min-width:0;padding:28px 18px 25px 18px;position:relative}
+#skills .skill-columns>.skill-category:first-child{padding-left:0}
+#skills .skill-columns>.skill-category+.skill-category{border-left:1px solid #c9c8be}
+#skills .skill-category h3{font-size:21px;line-height:1.25;margin:24px 0 20px;letter-spacing:-.045em}
+#skills ul.skill-icons{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;column-gap:9px!important;row-gap:9px!important;padding:0!important;margin:0!important;list-style:none!important;list-style-type:none!important;align-items:stretch}
+#skills ul.skill-icons>li.tech-tile{list-style:none!important;display:flex!important;align-items:center!important;justify-content:center!important;position:relative!important;width:100%!important;height:65px!important;min-height:65px!important;min-width:0!important;padding:10px!important;margin:0!important;border:1px solid #d0cfc8!important;border-radius:9px!important;background:#f6f4ee!important;overflow:visible!important;box-sizing:border-box!important;cursor:default}
+#skills ul.skill-icons>li.tech-tile::marker{content:""!important;font-size:0}
+#skills ul.skill-icons>li.tech-tile::before{content:none!important;display:none!important}
+#skills ul.skill-icons>li.tech-tile>i{display:inline-flex!important;align-items:center;justify-content:center;font-size:33px!important;line-height:1!important;width:36px!important;height:36px!important;max-width:36px!important;max-height:36px!important;flex:0 0 36px!important;margin:0!important;padding:0!important}
+#skills ul.skill-icons>li.tech-tile>svg,#skills ul.skill-icons>li.tech-tile>img{display:block!important;box-sizing:border-box!important;width:35px!important;height:35px!important;max-width:35px!important;max-height:35px!important;min-width:0!important;min-height:0!important;flex:0 0 35px!important;object-fit:contain!important;margin:0!important;padding:0!important}
+#skills ul.skill-icons>li.tech-tile:after{content:attr(data-label);position:absolute;left:50%;bottom:calc(100% + 7px);transform:translateX(-50%);padding:7px 10px;background:#1a1b17;color:#fff;white-space:nowrap;font:10px/1.3 "DM Mono",monospace;opacity:0;visibility:hidden;pointer-events:none;z-index:20;max-width:210px;min-width:max-content;text-align:center}
+#skills ul.skill-icons>li.tech-tile:hover,#skills ul.skill-icons>li.tech-tile:focus-visible{background:#fffaf5!important;border-color:#cb5937!important;transform:translateY(-2px);z-index:8}
+#skills ul.skill-icons>li.tech-tile:hover:after,#skills ul.skill-icons>li.tech-tile:focus-visible:after{opacity:1;visibility:visible}
+@media(max-width:1050px){#skills .skill-columns{grid-template-columns:repeat(2,minmax(0,1fr))}#skills .skill-columns>.skill-category{padding:22px!important;border-left:0!important}#skills .skill-columns>.skill-category:nth-child(even){border-left:1px solid #c9c8be!important}#skills .skill-columns>.skill-category:nth-child(n+3){border-top:1px solid #c9c8be}}
+@media(max-width:510px){#skills .skill-columns{grid-template-columns:1fr}#skills .skill-columns>.skill-category{border:0!important;border-top:1px solid #c9c8be!important;padding:24px 0!important}#skills ul.skill-icons{grid-template-columns:repeat(4,minmax(0,1fr))!important}#skills ul.skill-icons>li.tech-tile{height:68px!important;min-height:68px!important}#skills .skill-columns>.skill-category:nth-child(even){border-left:0!important}}
+@media(prefers-reduced-motion:reduce){#skills ul.skill-icons>li.tech-tile{transform:none!important;transition:none!important}}
+</style>
   <script src="/scripts/portfolio-2026.js" defer></script>
   <title>Tafadzwa Wilson Sedze — Building things that work.</title>
 </head>
@@ -48,7 +68,7 @@
         </div>
         <div class="hero-visual">
           <div class="portrait-frame">
-            <img class="hero-portrait" src="/assets/media/portrait-blackshirt.webp" alt="Tafadzwa Wilson Sedze wearing a black shirt" fetchpriority="high">
+            <img class="hero-portrait" src="/assets/media/portrait-red.webp" alt="Tafadzwa Wilson Sedze in a red jacket" fetchpriority="high" width="780" height="980">
           </div>
           <div class="portrait-side-note">NOT A STOCK PHOTO. <span>A REAL BUILDER.</span></div>
           <div class="portrait-bottom"><span>FIG. 01</span><span>WILSON SEDZE / 2026</span><span class="corner-glyph">↗</span></div>
